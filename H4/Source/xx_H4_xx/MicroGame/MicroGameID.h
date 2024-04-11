@@ -1,0 +1,20 @@
+
+#ifndef __MICROGAMEID_H__
+#define __MICROGAMEID_H__
+
+const int MICROGAME_KEYPAD			= 0;
+const int MICROGAME_SLIDERHOLD		= 1;
+const int MICROGAME_LIFTBUTTONS		= 2;
+const int MICROGAME_WIRING			= 3;
+const int MICROGAME_DIALS			= 4;
+const int MICROGAME_PICKUPITEM		= 5;
+const int MICROGAME_CARDSWIPE		= 6;
+const int MICROGAME_THUMBSCAN		= 7;
+const int MICROGAME_KEYLOCK			= 8;
+const int MICROGAME_CRIMINALDOCS	= 9;
+const int MICROGAME_WATERTIGHTDOOR	= 10;
+const int MICROGAME_MAP				= 11;
+const int MICROGAME_INVENTORY		= 12;
+const int MICROGAME_USEITEM			= 13;
+
+#endif // __MICROGAMEID_H__

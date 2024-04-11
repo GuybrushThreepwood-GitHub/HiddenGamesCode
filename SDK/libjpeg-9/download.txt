@@ -1,0 +1,1 @@
+https://github.com/winlibs/libjpeg/releases/tag/libjpeg-9

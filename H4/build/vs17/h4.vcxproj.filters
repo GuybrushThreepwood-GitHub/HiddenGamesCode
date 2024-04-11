@@ -1,0 +1,1636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{68715e41-b925-4a25-b3e2-8f528cb1c14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Camera">
+      <UniqueIdentifier>{f161561c-ab49-4953-800a-6c378b8ff462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\StateManage">
+      <UniqueIdentifier>{b7d615cb-4020-4185-a752-c9312fe49578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx">
+      <UniqueIdentifier>{a4a8a007-67ce-4890-ad6f-089fa8f49232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\GameStates">
+      <UniqueIdentifier>{500559f4-f547-4ab9-b188-c6235e8f7a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\GameStates\UI">
+      <UniqueIdentifier>{817280f9-a96d-4d8a-8017-6b24dc8b72a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\GameStates\UI\GeneratedFiles">
+      <UniqueIdentifier>{659e69c1-df58-4630-b201-ec6f22002afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\ScriptAccess">
+      <UniqueIdentifier>{6e18be48-699e-416a-94b6-acddfe957c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\Player">
+      <UniqueIdentifier>{679d7a5f-65ee-4d63-ac9c-5747f85a50ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\Player\Scripted">
+      <UniqueIdentifier>{d4d67f5e-dedc-49f0-b2ae-0523d855e3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\Level">
+      <UniqueIdentifier>{705c1828-f9b2-4dda-a131-33bdf5ad57f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\EventManage">
+      <UniqueIdentifier>{5658bf0b-f9d1-4729-9575-d4983faccdb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\GameObjects">
+      <UniqueIdentifier>{970ed6af-2142-4e20-8fce-a169f67f7293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\GameObjects\Script">
+      <UniqueIdentifier>{7ee65643-04c8-4b68-a2fc-ec7fd27f8d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\Enemy">
+      <UniqueIdentifier>{2bc2e7c7-8a70-4323-ae9c-5b54d8dc7740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\Decals">
+      <UniqueIdentifier>{5da43281-4529-49d6-abf2-31d5e8a1e33e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\MicroGame">
+      <UniqueIdentifier>{a8db03b3-e1ed-4b8d-bc0d-dca0d09ebe79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\GameEffects">
+      <UniqueIdentifier>{d8f61e5d-e93f-433e-9b6c-4665a50c8f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Audio">
+      <UniqueIdentifier>{7fcd03ba-ce44-4586-bc79-e553c71e9850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Effects">
+      <UniqueIdentifier>{c1604efe-8ba1-4cae-8ebf-4f6b5b100879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\InputSystem">
+      <UniqueIdentifier>{1c44402b-98bc-4073-be52-f091a8f25ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\NavigationMesh">
+      <UniqueIdentifier>{61958fe9-b482-491e-99d0-e84effc9f9fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Resources">
+      <UniqueIdentifier>{eb5ffc52-a38e-4d55-b22a-272b6bf13555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\ScriptedSequence">
+      <UniqueIdentifier>{760aa7c9-4366-473b-81cf-7f0f47d075c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{81fa2590-d60d-4b05-98dc-63b51d1e22fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Collision">
+      <UniqueIdentifier>{695445ff-409c-4dff-ad1e-8af418ca6ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Core">
+      <UniqueIdentifier>{5e6e29cc-6323-4daa-abee-dc9e8e25d89f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Debug">
+      <UniqueIdentifier>{068287e7-407e-4e6c-9459-724676a79c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Input">
+      <UniqueIdentifier>{e479f115-a1ad-40c2-b5a0-5d12e4703662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Model">
+      <UniqueIdentifier>{a55e4bc9-0cbf-4f40-bd11-042e57d672f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Math">
+      <UniqueIdentifier>{2f7bc277-b1af-4d0b-b625-7bbfc11b385b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Physics">
+      <UniqueIdentifier>{9e323a6c-743e-483f-a250-145db6e2e2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Physics\ode">
+      <UniqueIdentifier>{925607c1-18d0-433b-907f-a9cd952ae1e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Physics\box2d">
+      <UniqueIdentifier>{fe1d0966-fe0f-4987-b474-98ad80d1c5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Render">
+      <UniqueIdentifier>{4523a1af-e176-4506-9e62-e94cade218ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Script">
+      <UniqueIdentifier>{35097aca-7dfb-4744-89b9-02389f384f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Script\box2d">
+      <UniqueIdentifier>{88827436-12c5-4d8f-abfd-b679c0e38976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Sound">
+      <UniqueIdentifier>{f3497d2e-034f-4a04-b4c8-fa389027b981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\ScriptAccess\Emitter">
+      <UniqueIdentifier>{746b71a6-b0c9-46bb-b1c4-a85cf542e528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\ScriptAccess\Sound">
+      <UniqueIdentifier>{eff88fbb-dfe6-4a0e-8098-68c814da4e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\ScriptAccess\H4">
+      <UniqueIdentifier>{58994329-d3ae-4f76-bbd1-6bae900fee1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\ScriptAccess\H4\Inventory">
+      <UniqueIdentifier>{ed898cac-a479-4cf2-8ae9-7f2e7e7032c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\ScriptAccess\H4\Room">
+      <UniqueIdentifier>{89f6ddb5-74a4-41f3-867f-1efe6d0cdbda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Sound\ios">
+      <UniqueIdentifier>{1b53c585-7d76-4ea7-80db-d3b8661b9e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Sound\win">
+      <UniqueIdentifier>{c806fcd7-e9f3-495c-9fa2-f064af9bfbab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Input\win">
+      <UniqueIdentifier>{84280864-3eb8-4b45-b340-d9925dfa6e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Input\ios">
+      <UniqueIdentifier>{0ea275b5-1dfe-44e9-8156-12253c2411e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Core\ios">
+      <UniqueIdentifier>{672be941-ae80-4294-9dbb-4db214ce8b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Core\win">
+      <UniqueIdentifier>{8f0074ac-170a-475f-a9d6-773cdcc436a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Core\aos">
+      <UniqueIdentifier>{65a44b1a-38cb-423d-bb13-70b2d8387ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Sound\aos">
+      <UniqueIdentifier>{82250fa6-8918-48ae-bfe0-428af983c20c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Input\aos">
+      <UniqueIdentifier>{dbf9cdaa-abc6-4e03-a3cc-5ea1b78fbf21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Support">
+      <UniqueIdentifier>{829446f6-7118-4bc0-8f99-882907410c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Support\aos">
+      <UniqueIdentifier>{e9dcf399-8680-4ffe-a5e0-76e0209dc23b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Support\ios">
+      <UniqueIdentifier>{a47b6992-2bb6-45f0-9b99-439bf04f475a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Support\win">
+      <UniqueIdentifier>{2db6afdb-222c-4488-8add-aea8b51cb6b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\iPhoneBoot">
+      <UniqueIdentifier>{6400acb0-e4d6-4f91-9c87-d875d6e4e1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H4_xx\Physics">
+      <UniqueIdentifier>{38b82234-5ad2-4b20-962d-56a618dc6908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Audio\ios">
+      <UniqueIdentifier>{a324d10c-3b86-4254-8e57-545ef2b3f1c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Audio\win">
+      <UniqueIdentifier>{17879959-9eca-498f-b198-8153a4ca228b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Audio\aos">
+      <UniqueIdentifier>{f4324b83-e955-4041-a529-c6046fbb3b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Debug\FF">
+      <UniqueIdentifier>{62aa0ecf-a751-45ef-95ce-942b38a1fd2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Debug\GLSL">
+      <UniqueIdentifier>{3d5fada3-5207-401a-980c-852db169a104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Model\FF">
+      <UniqueIdentifier>{e274e413-6308-4055-9717-a4998c1ee488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Model\GLSL">
+      <UniqueIdentifier>{2a0774c7-9fc2-42a8-b42f-eee2352e5f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Physics\box2d\FF">
+      <UniqueIdentifier>{075684a0-2be4-44a5-81bd-ddc5f2fbbf3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Physics\box2d\GLSL">
+      <UniqueIdentifier>{f432c538-f274-4d14-adbe-d742bebde0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Physics\ode\FF">
+      <UniqueIdentifier>{a521337c-a1f9-46cb-afae-0812055a2bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Physics\ode\GLSL">
+      <UniqueIdentifier>{bff3194c-bf24-4056-a8cb-06c74de996b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Render\FF">
+      <UniqueIdentifier>{ac487fbe-329c-4c2b-899e-06987e6d425b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Render\GLSL">
+      <UniqueIdentifier>{a1d9d72b-daf5-4c24-9b16-c390102a73f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Render\FF\OpenGL">
+      <UniqueIdentifier>{51aeda26-efe2-404c-9f0b-a73be4e0820e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Render\FF\OpenGLES">
+      <UniqueIdentifier>{6388a9fd-9b28-4ffe-84d1-cbf051305623}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Camera\Camera.cpp">
+      <Filter>App\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Camera\DebugCamera.cpp">
+      <Filter>App\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Camera\GameCamera.cpp">
+      <Filter>App\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\StateManage\StateManager.cpp">
+      <Filter>App\StateManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameStates\CreditRollState.cpp">
+      <Filter>App\xx_H4_xx\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameStates\EndingState.cpp">
+      <Filter>App\xx_H4_xx\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameStates\FrontendState.cpp">
+      <Filter>App\xx_H4_xx\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameStates\IntroOutroState.cpp">
+      <Filter>App\xx_H4_xx\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameStates\LoadingState.cpp">
+      <Filter>App\xx_H4_xx\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameStates\MainState.cpp">
+      <Filter>App\xx_H4_xx\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameStates\UI\MainStateUI.cpp">
+      <Filter>App\xx_H4_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameStates\UI\UIBaseState.cpp">
+      <Filter>App\xx_H4_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameStates\UI\UIFileLoader.cpp">
+      <Filter>App\xx_H4_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\ScriptAccess\ScriptAccess.cpp">
+      <Filter>App\xx_H4_xx\ScriptAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\ScriptAccess\ScriptDataHolder.cpp">
+      <Filter>App\xx_H4_xx\ScriptAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Physics\PhysicsContact.cpp">
+      <Filter>App\xx_H4_xx\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Player\Bullet.cpp">
+      <Filter>App\xx_H4_xx\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Player\InventoryManagement.cpp">
+      <Filter>App\xx_H4_xx\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Player\Player.cpp">
+      <Filter>App\xx_H4_xx\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Player\PlayerAnimationLookup.cpp">
+      <Filter>App\xx_H4_xx\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Player\Scripted\ScriptedPlayer.cpp">
+      <Filter>App\xx_H4_xx\Player\Scripted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Player\Scripted\ScriptedPlayerAnimationLookup.cpp">
+      <Filter>App\xx_H4_xx\Player\Scripted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Level\Level.cpp">
+      <Filter>App\xx_H4_xx\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\EventManage\Event.cpp">
+      <Filter>App\xx_H4_xx\EventManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameObjects\AnimatedMesh.cpp">
+      <Filter>App\xx_H4_xx\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameObjects\BaseObject.cpp">
+      <Filter>App\xx_H4_xx\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameObjects\Door.cpp">
+      <Filter>App\xx_H4_xx\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameObjects\RoomInstance.cpp">
+      <Filter>App\xx_H4_xx\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameObjects\UseArea.cpp">
+      <Filter>App\xx_H4_xx\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameObjects\Script\ScriptBaseObject.cpp">
+      <Filter>App\xx_H4_xx\GameObjects\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Enemy\CrawlingSpider.cpp">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Enemy\CrawlingSpiderAnimationLookup.cpp">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Enemy\Enemy.cpp">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Enemy\EnemyAnimationLookup.cpp">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Enemy\EnemyManagement.cpp">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Enemy\FloatingHead.cpp">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Enemy\Gib.cpp">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Enemy\HangingSpider.cpp">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Enemy\HangingSpiderAnimationLookup.cpp">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Enemy\Insects.cpp">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\Decals\DecalSystem.cpp">
+      <Filter>App\xx_H4_xx\Decals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameCardSwipe.cpp">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameCriminalDocs.cpp">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameDials.cpp">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameInventory.cpp">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameKeylock.cpp">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameKeypad.cpp">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameLiftButtons.cpp">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameMap.cpp">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\MicroGame\MicroGamePickupItem.cpp">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameSliderHold.cpp">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameThumbScan.cpp">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameUseItem.cpp">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameWaterTightDoor.cpp">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameWiring.cpp">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameEffects\FullscreenEffects.cpp">
+      <Filter>App\xx_H4_xx\GameEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameEffects\InsectAttack.cpp">
+      <Filter>App\xx_H4_xx\GameEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Audio\AudioSystem.cpp">
+      <Filter>App\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Effects\Emitter.cpp">
+      <Filter>App\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\InputSystem\InputSystem.cpp">
+      <Filter>App\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NavigationMesh\NavigationCell.cpp">
+      <Filter>App\NavigationMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NavigationMesh\NavigationMesh.cpp">
+      <Filter>App\NavigationMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\AnimatedResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\EmitterResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\FontResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\ModelResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\ResourceHelper.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\SoundResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\SpriteResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\StringResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ScriptedSequence\ScriptedSequencePlayer.cpp">
+      <Filter>App\ScriptedSequence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\ScriptAccess\Emitter\EmitterAccess.cpp">
+      <Filter>App\xx_H4_xx\ScriptAccess\Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\ScriptAccess\H4\Inventory\InventoryAccess.cpp">
+      <Filter>App\xx_H4_xx\ScriptAccess\H4\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\ScriptAccess\H4\Room\RoomAccess.cpp">
+      <Filter>App\xx_H4_xx\ScriptAccess\H4\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\ScriptAccess\Sound\SoundAccess.cpp">
+      <Filter>App\xx_H4_xx\ScriptAccess\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\ScriptAccess\WorldAccess.cpp">
+      <Filter>App\xx_H4_xx\ScriptAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Collision\AABB.cpp">
+      <Filter>Base\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Collision\OBB.cpp">
+      <Filter>Base\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Collision\Sphere.cpp">
+      <Filter>Base\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\App.cpp">
+      <Filter>Base\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\CoreFunctions.cpp">
+      <Filter>Base\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\Endian.cpp">
+      <Filter>Base\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\FileIO.cpp">
+      <Filter>Base\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\ios\iOSApp.cpp">
+      <Filter>Base\Core\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\ios\iOSMutex.cpp">
+      <Filter>Base\Core\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\ios\iOSThread.cpp">
+      <Filter>Base\Core\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\win\WinApp.cpp">
+      <Filter>Base\Core\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\win\WinMutex.cpp">
+      <Filter>Base\Core\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\win\WinThread.cpp">
+      <Filter>Base\Core\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Debug\Assertion.cpp">
+      <Filter>Base\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Input\Input.cpp">
+      <Filter>Base\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Math\MathFunctions.cpp">
+      <Filter>Base\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Math\Matrix.cpp">
+      <Filter>Base\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Math\Quaternion.cpp">
+      <Filter>Base\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Math\RandomTables.cpp">
+      <Filter>Base\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Math\Vectors.cpp">
+      <Filter>Base\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\Model.cpp">
+      <Filter>Base\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Physics\box2d\PhysicsWorldB2D.cpp">
+      <Filter>Base\Physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Physics\ode\PhysicsWorldODE.cpp">
+      <Filter>Base\Physics\ode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\OpenGLCommon.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\Texture.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\TextureShared.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Script\BaseScriptSupport.cpp">
+      <Filter>Base\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Script\LuaScripting.cpp">
+      <Filter>Base\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Script\box2d\PhysicsAccessB2D.cpp">
+      <Filter>Base\Script\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\OpenAL.cpp">
+      <Filter>Base\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\Sound.cpp">
+      <Filter>Base\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\SoundCodecs.cpp">
+      <Filter>Base\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\SoundLoadAndUpload.cpp">
+      <Filter>Base\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\SoundManager.cpp">
+      <Filter>Base\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\SoundStream.cpp">
+      <Filter>Base\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\ios\iOSSound.cpp">
+      <Filter>Base\Sound\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\ios\iOSSoundStream.cpp">
+      <Filter>Base\Sound\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\win\WinSound.cpp">
+      <Filter>Base\Sound\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\win\WinSoundStream.cpp">
+      <Filter>Base\Sound\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GameSystems.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\H4.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\aos\AndroidApp.cpp">
+      <Filter>Base\Core\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\aos\AndroidMutex.cpp">
+      <Filter>Base\Core\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\aos\AndroidThread.cpp">
+      <Filter>Base\Core\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\aos\jniCore.cpp">
+      <Filter>Base\Core\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\aos\AndroidSound.cpp">
+      <Filter>Base\Sound\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\aos\AndroidSoundStream.cpp">
+      <Filter>Base\Sound\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\mainAndroid.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\TextureResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FreetypeFontZZip.c">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FreetypeZZipAccess.c">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Debug\DebugLogging.cpp">
+      <Filter>Base\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\Leaderboards.cpp">
+      <Filter>Base\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\Purchase.cpp">
+      <Filter>Base\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\Scores.cpp">
+      <Filter>Base\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\aos\AndroidPurchase.cpp">
+      <Filter>Base\Support\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\aos\AndroidScores.cpp">
+      <Filter>Base\Support\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\ios\iOSPurchase.cpp">
+      <Filter>Base\Support\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\ios\iOSScores.cpp">
+      <Filter>Base\Support\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\win\WinPurchase.cpp">
+      <Filter>Base\Support\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\win\WinScores.cpp">
+      <Filter>Base\Support\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameStates\UI\MainStateUITablet.cpp">
+      <Filter>App\xx_H4_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameStates\UI\MainStateUINormal.cpp">
+      <Filter>App\xx_H4_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\AchievementList.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\IAPList.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\GameStates\UI\AchievementUI.cpp">
+      <Filter>App\xx_H4_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H4_xx\ScriptAccess\H4\H4Access.cpp">
+      <Filter>App\xx_H4_xx\ScriptAccess\H4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Audio\ios\iOSAudioSystemBase.cpp">
+      <Filter>App\Audio\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Audio\aos\AndroidAudioSystemBase.cpp">
+      <Filter>App\Audio\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Audio\win\WinAudioSystemBase.cpp">
+      <Filter>App\Audio\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Debug\FF\DebugPrint.cpp">
+      <Filter>Base\Debug\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Debug\GLSL\DebugPrintGLSL.cpp">
+      <Filter>Base\Debug\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\FF\Mesh.cpp">
+      <Filter>Base\Model\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\FF\ModelHGA.cpp">
+      <Filter>Base\Model\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\FF\ModelHGM.cpp">
+      <Filter>Base\Model\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\FF\SkinMesh.cpp">
+      <Filter>Base\Model\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\GLSL\MeshGLSL.cpp">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\GLSL\ModelHGAGLSL.cpp">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\GLSL\ModelHGMGLSL.cpp">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\GLSL\SkinMeshGLSL.cpp">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Physics\box2d\FF\Box2DDebugDraw.cpp">
+      <Filter>Base\Physics\box2d\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Physics\box2d\GLSL\Box2DDebugDrawGLSL.cpp">
+      <Filter>Base\Physics\box2d\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Physics\ode\FF\ODEPhysicsPrimitives.cpp">
+      <Filter>Base\Physics\ode\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Physics\ode\GLSL\ODEPhysicsPrimitivesGLSL.cpp">
+      <Filter>Base\Physics\ode\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\FreetypeFont.cpp">
+      <Filter>Base\Render\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\Primitives.cpp">
+      <Filter>Base\Render\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGL\Extensions.cpp">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGL\OpenGL.cpp">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGL\RenderToTexture.cpp">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGL\Sprite.cpp">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGL\TextureLoadAndUpload.cpp">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\ExtensionsOES.cpp">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\gluSupport.cpp">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\OpenGLES.cpp">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\RenderToTextureOES.cpp">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\SpriteOES.cpp">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\TextureLoadAndUploadOES.cpp">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\GLSL\FreetypeFontGLSL.cpp">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\GLSL\glewES.cpp">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\GLSL\gluSupportGLSL.cpp">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\GLSL\OpenGLSL.cpp">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\GLSL\PrimitivesGLSL.cpp">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\GLSL\ShaderShared.cpp">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\GLSL\TextureLoadAndUploadGLSL.cpp">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\TextureAtlas.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Input\InputDeviceController.cpp">
+      <Filter>Base\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Input\InputManager.cpp">
+      <Filter>Base\Input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Camera\Camera.h">
+      <Filter>App\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Camera\DebugCamera.h">
+      <Filter>App\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Camera\GameCamera.h">
+      <Filter>App\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\StateManage\IState.h">
+      <Filter>App\StateManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\StateManage\StateManager.h">
+      <Filter>App\StateManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\CreditRollState.h">
+      <Filter>App\xx_H4_xx\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\EndingState.h">
+      <Filter>App\xx_H4_xx\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\FrontendState.h">
+      <Filter>App\xx_H4_xx\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\IBaseGameState.h">
+      <Filter>App\xx_H4_xx\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\IntroOutroState.h">
+      <Filter>App\xx_H4_xx\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\LoadingState.h">
+      <Filter>App\xx_H4_xx\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\MainState.h">
+      <Filter>App\xx_H4_xx\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\MainStateUI.h">
+      <Filter>App\xx_H4_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\UIBaseState.h">
+      <Filter>App\xx_H4_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\UIFileLoader.h">
+      <Filter>App\xx_H4_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\cutscene.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\frontend.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\gameover.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\hiddendocs.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\hud_l.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\hud_r.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\inventory.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_cardswipe.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_cardswipe.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_dials.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_dials.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_keylock.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_keylock.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_keypad.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_keypad.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_liftbuttons.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_liftbuttons.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_pickupitem.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_pickupitem.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_sliderhold.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_sliderhold.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_thumbscan.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_thumbscan.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_wiring.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_wiring.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\optionsfront.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\optionsgame.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\ScriptAccess\ScriptAccess.h">
+      <Filter>App\xx_H4_xx\ScriptAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\ScriptAccess\ScriptDataHolder.h">
+      <Filter>App\xx_H4_xx\ScriptAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Physics\PhysicsContact.h">
+      <Filter>App\xx_H4_xx\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Physics\PhysicsIdentifier.h">
+      <Filter>App\xx_H4_xx\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Physics\PhysicsIds.h">
+      <Filter>App\xx_H4_xx\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Player\Bullet.h">
+      <Filter>App\xx_H4_xx\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Player\InventoryManagement.h">
+      <Filter>App\xx_H4_xx\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Player\Player.h">
+      <Filter>App\xx_H4_xx\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Player\PlayerAnimationLookup.h">
+      <Filter>App\xx_H4_xx\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Player\Scripted\ScriptedPlayer.h">
+      <Filter>App\xx_H4_xx\Player\Scripted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Player\Scripted\ScriptedPlayerAnimationLookup.h">
+      <Filter>App\xx_H4_xx\Player\Scripted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Level\Level.h">
+      <Filter>App\xx_H4_xx\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Level\LevelTypes.h">
+      <Filter>App\xx_H4_xx\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\EventManage\Event.h">
+      <Filter>App\xx_H4_xx\EventManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameObjects\AnimatedMesh.h">
+      <Filter>App\xx_H4_xx\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameObjects\BaseObject.h">
+      <Filter>App\xx_H4_xx\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameObjects\Door.h">
+      <Filter>App\xx_H4_xx\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameObjects\RoomInstance.h">
+      <Filter>App\xx_H4_xx\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameObjects\UseArea.h">
+      <Filter>App\xx_H4_xx\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameObjects\Script\ScriptBaseObject.h">
+      <Filter>App\xx_H4_xx\GameObjects\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Enemy\CrawlingSpider.h">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Enemy\CrawlingSpiderAnimationLookup.h">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Enemy\Enemy.h">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Enemy\EnemyAnimationLookup.h">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Enemy\EnemyManagement.h">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Enemy\FloatingHead.h">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Enemy\Gib.h">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Enemy\HangingSpider.h">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Enemy\HangingSpiderAnimationLookup.h">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Enemy\Insects.h">
+      <Filter>App\xx_H4_xx\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\Decals\DecalSystem.h">
+      <Filter>App\xx_H4_xx\Decals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGame.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameCardSwipe.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameCriminalDocs.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameDials.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameID.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameInventory.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameKeylock.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameKeypad.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameLiftButtons.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameMap.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGamePickupItem.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameSliderHold.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameThumbScan.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameUseItem.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameWaterTightDoor.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\MicroGame\MicroGameWiring.h">
+      <Filter>App\xx_H4_xx\MicroGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameEffects\FullscreenEffects.h">
+      <Filter>App\xx_H4_xx\GameEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameEffects\InsectAttack.h">
+      <Filter>App\xx_H4_xx\GameEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Audio\AudioSystem.h">
+      <Filter>App\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Effects\Emitter.h">
+      <Filter>App\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\InputSystem\InputSystem.h">
+      <Filter>App\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NavigationMesh\LINE2D.H">
+      <Filter>App\NavigationMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NavigationMesh\NavigationCell.h">
+      <Filter>App\NavigationMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NavigationMesh\NavigationHeap.h">
+      <Filter>App\NavigationMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NavigationMesh\NavigationMesh.h">
+      <Filter>App\NavigationMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NavigationMesh\NavigationPath.h">
+      <Filter>App\NavigationMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NavigationMesh\NavObject.h">
+      <Filter>App\NavigationMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NavigationMesh\PLANE.H">
+      <Filter>App\NavigationMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\AnimatedResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\EmitterResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\FontResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\ModelResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\ResourceHelper.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\SoundResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\SpriteResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\StringResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ScriptedSequence\ScriptedSequencePlayer.h">
+      <Filter>App\ScriptedSequence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\ScriptAccess\Emitter\EmitterAccess.h">
+      <Filter>App\xx_H4_xx\ScriptAccess\Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\ScriptAccess\H4\Inventory\InventoryAccess.h">
+      <Filter>App\xx_H4_xx\ScriptAccess\H4\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\ScriptAccess\H4\Room\RoomAccess.h">
+      <Filter>App\xx_H4_xx\ScriptAccess\H4\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\ScriptAccess\Sound\SoundAccess.h">
+      <Filter>App\xx_H4_xx\ScriptAccess\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\ScriptAccess\WorldAccess.h">
+      <Filter>App\xx_H4_xx\ScriptAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Collision\AABB.h">
+      <Filter>Base\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Collision\OBB.h">
+      <Filter>Base\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Collision\Sphere.h">
+      <Filter>Base\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\App.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\CoreConsts.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\CoreDefines.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\CoreFunctions.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\Endian.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\FileIO.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\Mutex.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\Thread.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\ios\iOSApp.h">
+      <Filter>Base\Core\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\ios\iOSIncludes.h">
+      <Filter>Base\Core\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\ios\iOSMutex.h">
+      <Filter>Base\Core\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\ios\iOSThread.h">
+      <Filter>Base\Core\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\win\WinApp.h">
+      <Filter>Base\Core\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\win\WinIncludes.h">
+      <Filter>Base\Core\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\win\WinMutex.h">
+      <Filter>Base\Core\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\win\WinThread.h">
+      <Filter>Base\Core\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Debug\Assertion.h">
+      <Filter>Base\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Debug\DebugFont.h">
+      <Filter>Base\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Input\Input.h">
+      <Filter>Base\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Input\InputInclude.h">
+      <Filter>Base\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Input\ios\iOSInput.h">
+      <Filter>Base\Input\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Input\win\WinInput.h">
+      <Filter>Base\Input\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Math\MathConsts.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Math\MathFunctions.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Math\Matrix.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Math\Quaternion.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Math\RandomTables.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Math\Vectors.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\Model.h">
+      <Filter>Base\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\ModelCommon.h">
+      <Filter>Base\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Physics\PhysicsConsts.h">
+      <Filter>Base\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Physics\box2d\PhysicsWorldB2D.h">
+      <Filter>Base\Physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Physics\ode\PhysicsWorldODE.h">
+      <Filter>Base\Physics\ode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\OpenGLCommon.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\PlatformRenderBase.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\RenderConsts.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\Texture.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\TextureShared.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Script\BaseScriptSupport.h">
+      <Filter>Base\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Script\LuaScripting.h">
+      <Filter>Base\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Script\ScriptConsts.h">
+      <Filter>Base\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Script\box2d\PhysicsAccessB2D.h">
+      <Filter>Base\Script\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\OpenAL.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\PlatformSoundBase.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\Sound.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\SoundCodecs.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\SoundCommon.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\SoundLoadAndUpload.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\SoundManager.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\SoundStream.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\ios\iOSSound.h">
+      <Filter>Base\Sound\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\ios\iOSSoundStream.h">
+      <Filter>Base\Sound\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\ios\PlatformOpenALInclude.h">
+      <Filter>Base\Sound\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\win\PlatformOpenALInclude.h">
+      <Filter>Base\Sound\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\win\WinSound.h">
+      <Filter>Base\Sound\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\win\WinSoundStream.h">
+      <Filter>Base\Sound\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\CollisionBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\CoreBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\DebugBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\InputBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\MathBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\ModelBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\PhysicsBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\PlatformBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\RenderBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\ScriptBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\SoundBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AppConsts.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GameConsts.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GameSystems.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\H4.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\aos\AndroidApp.h">
+      <Filter>Base\Core\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\aos\AndroidIncludes.h">
+      <Filter>Base\Core\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\aos\AndroidMutex.h">
+      <Filter>Base\Core\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\aos\AndroidThread.h">
+      <Filter>Base\Core\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\aos\jniCore.h">
+      <Filter>Base\Core\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\aos\AndroidSound.h">
+      <Filter>Base\Sound\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\aos\AndroidSoundStream.h">
+      <Filter>Base\Sound\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\aos\PlatformOpenALInclude.h">
+      <Filter>Base\Sound\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Input\aos\AndroidInput.h">
+      <Filter>Base\Input\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\map.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\map.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_watertightdoor.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\microgame_watertightdoor.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\TextureResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FreetypeZZipAccess.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Debug\DebugLogging.h">
+      <Filter>Base\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\Leaderboards.h">
+      <Filter>Base\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\Purchase.h">
+      <Filter>Base\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\Scores.h">
+      <Filter>Base\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\ScoresCommon.h">
+      <Filter>Base\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\aos\AndroidPurchase.h">
+      <Filter>Base\Support\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\aos\AndroidScores.h">
+      <Filter>Base\Support\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\ios\GameCenterManager.h">
+      <Filter>Base\Support\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\ios\iOSPurchase.h">
+      <Filter>Base\Support\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\ios\iOSScores.h">
+      <Filter>Base\Support\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\win\WinPurchase.h">
+      <Filter>Base\Support\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\win\WinScores.h">
+      <Filter>Base\Support\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\SupportBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\frontend.hgm.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\optionsfront.hgm.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\gameover.hgm.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\loading.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\optionsgame.hgm.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\hud_l.hgm.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\hud_r.hgm.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\inventory.hgm.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\hiddendocs.hgm.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\MainStateUITablet.h">
+      <Filter>App\xx_H4_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\MainStateUINormal.h">
+      <Filter>App\xx_H4_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\..\Source\Resources\AchievementList.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\IAPList.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\AchievementUI.h">
+      <Filter>App\xx_H4_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\achievement_popup.hgm.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\GameStates\UI\GeneratedFiles\achievement_popup.hui.h">
+      <Filter>App\xx_H4_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H4_xx\ScriptAccess\H4\H4Access.h">
+      <Filter>App\xx_H4_xx\ScriptAccess\H4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Physics\PhysicsIdentifier.h">
+      <Filter>Base\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Audio\ios\iOSAudioSystemBase.h">
+      <Filter>App\Audio\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Audio\ios\MusicMediaPlayer.h">
+      <Filter>App\Audio\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Audio\aos\AndroidAudioSystemBase.h">
+      <Filter>App\Audio\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Audio\win\WinAudioSystemBase.h">
+      <Filter>App\Audio\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Debug\FF\DebugPrint.h">
+      <Filter>Base\Debug\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Debug\GLSL\DebugPrintGLSL.h">
+      <Filter>Base\Debug\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\FF\Mesh.h">
+      <Filter>Base\Model\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\FF\ModelHGA.h">
+      <Filter>Base\Model\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\FF\ModelHGM.h">
+      <Filter>Base\Model\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\FF\SkinMesh.h">
+      <Filter>Base\Model\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\GLSL\MeshGLSL.h">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\GLSL\ModelHGAGLSL.h">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\GLSL\ModelHGMGLSL.h">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\GLSL\SkinMeshGLSL.h">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Physics\box2d\FF\Box2DDebugDraw.h">
+      <Filter>Base\Physics\box2d\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Physics\box2d\GLSL\Box2DDebugDrawGLSL.h">
+      <Filter>Base\Physics\box2d\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Physics\ode\FF\ODEPhysicsPrimitives.h">
+      <Filter>Base\Physics\ode\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Physics\ode\GLSL\ODEPhysicsPrimitivesGLSL.h">
+      <Filter>Base\Physics\ode\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\FreetypeFont.h">
+      <Filter>Base\Render\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\Primitives.h">
+      <Filter>Base\Render\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\Extensions.h">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\OpenGL.h">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\PlatformOpenGLInclude.h">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\RenderToTexture.h">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\Sprite.h">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\TextureLoadAndUpload.h">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\ExtensionsOES.h">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\gluSupport.h">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\OpenGLES.h">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\PlatformOpenGLInclude.h">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\RenderToTextureOES.h">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\SpriteOES.h">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\TextureLoadAndUploadOES.h">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\FreetypeFontGLSL.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\glewES.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\gluSupportGLSL.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\OpenGLSL.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\PlatformOpenGLInclude.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\PrimitivesGLSL.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\ShaderShared.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\TextureLoadAndUploadGLSL.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\TextureAtlas.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Input\InputDeviceController.h">
+      <Filter>Base\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Input\InputManager.h">
+      <Filter>Base\Input</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Base\Support\ios\GameCenterManager.mm">
+      <Filter>Base\Support\ios</Filter>
+    </None>
+    <None Include="..\..\Source\iPhoneBoot\EAGLView.mm">
+      <Filter>App\iPhoneBoot</Filter>
+    </None>
+    <None Include="prisoner84.ico" />
+    <None Include="..\..\Source\main.m">
+      <Filter>App</Filter>
+    </None>
+    <None Include="..\..\Source\Audio\ios\MusicMediaPlayer.mm">
+      <Filter>App\Audio\ios</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="h4.rc" />
+  </ItemGroup>
+</Project>

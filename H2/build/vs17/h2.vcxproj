@@ -1,0 +1,939 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugFree|Win32">
+      <Configuration>DebugFree</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugFree|x64">
+      <Configuration>DebugFree</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugLite|Win32">
+      <Configuration>DebugLite</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugLite|x64">
+      <Configuration>DebugLite</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseFree|Win32">
+      <Configuration>ReleaseFree</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseFree|x64">
+      <Configuration>ReleaseFree</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseLite|Win32">
+      <Configuration>ReleaseLite</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseLite|x64">
+      <Configuration>ReleaseLite</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BC2E93D5-B956-406F-8F54-A71CBB423F69}</ProjectGuid>
+    <RootNamespace>h2</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseLite|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseLite|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseFree|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseFree|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugLite|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugLite|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugFree|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugFree|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseLite|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseLite|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseFree|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseFree|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugLite|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugLite|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugFree|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugFree|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugLite|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugFree|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugLite|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugFree|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugLite|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugLite|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugFree|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugFree|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='ReleaseLite|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='ReleaseFree|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='ReleaseLite|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='ReleaseFree|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='ReleaseLite|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='ReleaseLite|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='ReleaseFree|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='ReleaseFree|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../../Source;../../Source/xx_Cabby_xx;../../../Base;../../../SDK/GLext;../../../SDK/openal/include;../../../SDK/libogg-1.3.1/include;../../../SDK/libvorbis-1.3.3/include;../../../SDK/libpng-1.6.8/include;../../../SDK/zlib-1.2.8/include;../../../SDK/freetype-2.6/include;../../../SDK/zziplib-0.13.59/include;../../../SDK/lua-5.2.3/include;../../../SDK/box2d-2.0.1/include;../../../SDK/tinyxml2/include;../../../SDK/curl-7.34.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;BASE_PLATFORM_WINDOWS;BASE_WINDOW_IOS;BASE_INPUT_NO_TOUCH_SUPPORT;BASE_SUPPORT_OPENGL;BASE_SUPPORT_OGG;BASE_SUPPORT_FREETYPE;BASE_SUPPORT_SCRIPTING;BASE_SUPPORT_SCORES;BASE_SUPPORT_KIIP;BASE_SUPPORT_FLURRY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;opengl32.lib;glu32.lib;../../../SDK/openal/libs/Win32/OpenAL32.lib;../../../SDK/libogg-1.3.1/libs/libogg.lib;../../../SDK/libvorbis-1.3.3/libs/libvorbis.lib;../../../SDK/libvorbis-1.3.3/libs/libvorbisfile.lib;../../../SDK/libpng-1.6.8/libs/libpng.lib;../../../SDK/zlib-1.2.8/libs/libzlib.lib;../../../SDK/freetype-2.6/libs/libfreetype.lib;../../../SDK/zziplib-0.13.59/libs/zziplib.lib;../../../SDK/lua-5.2.3/libs/liblua.lib;../../../SDK/box2d-2.0.1/libs/libbox2dd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\$(ProjectName)d.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../../Source;../../Source/xx_Cabby_xx;../../../Base;../../../SDK/GLext;../../../SDK/openal/include;../../../SDK/libogg-1.3.1/include;../../../SDK/libvorbis-1.3.3/include;../../../SDK/libpng-1.6.8/include;../../../SDK/zlib-1.2.8/include;../../../SDK/freetype-2.6/include;../../../SDK/zziplib-0.13.59/include;../../../SDK/lua-5.2.3/include;../../../SDK/box2d-2.0.1/include;../../../SDK/tinyxml2/include;../../../SDK/curl-7.34.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;BASE_PLATFORM_WINDOWS;BASE_WINDOW_IOS;BASE_INPUT_NO_TOUCH_SUPPORT;BASE_SUPPORT_OPENGL;BASE_SUPPORT_OGG;BASE_SUPPORT_FREETYPE;BASE_SUPPORT_SCRIPTING;BASE_SUPPORT_SCORES;BASE_SUPPORT_KIIP;BASE_SUPPORT_FLURRY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;opengl32.lib;glu32.lib;../../../SDK/openal/libs/Win64/OpenAL32.lib;../../../SDK/libogg-1.3.1/libs/x64/libogg_x64d.lib;../../../SDK/libvorbis-1.3.3/libs/x64/libvorbis_x64d.lib;../../../SDK/libvorbis-1.3.3/libs/x64/libvorbisfile_x64d.lib;../../../SDK/libpng-1.6.8/libs/x64/libpng_x64d.lib;../../../SDK/zlib-1.2.8/libs/x64/libzlib_x64d.lib;../../../SDK/freetype-2.6/libs/x64/libfreetype_x64d.lib;../../../SDK/zziplib-0.13.59/libs/x64/zziplib_x64d.lib;../../../SDK/lua-5.2.3/libs/x64/liblua_x64d.lib;../../../SDK/box2d-2.0.1/libs/x64/libbox2d_x64d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\$(ProjectName)x64d.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugLite|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../../Source;../../Source/xx_Cabby_xx;../../../Base;../../../SDK/GLext;../../../SDK/openal/include;../../../SDK/libogg-1.3.1/include;../../../SDK/libvorbis-1.3.3/include;../../../SDK/libpng-1.6.8/include;../../../SDK/zlib-1.2.8/include;../../../SDK/freetype-2.6/include;../../../SDK/zziplib-0.13.59/include;../../../SDK/lua-5.2.3/include;../../../SDK/box2d-2.0.1/include;../../../SDK/tinyxml2/include;../../../SDK/curl-7.34.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;BASE_PLATFORM_WINDOWS;BASE_WINDOW_IOS;BASE_INPUT_NO_TOUCH_SUPPORT;BASE_SUPPORT_OPENGL;BASE_SUPPORT_OGG;BASE_SUPPORT_FREETYPE;BASE_SUPPORT_SCRIPTING;BASE_SUPPORT_SCORES;BASE_SUPPORT_FLURRY;CABBY_LITE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;opengl32.lib;glu32.lib;../../../SDK/openal/libs/Win32/OpenAL32.lib;../../../SDK/libogg-1.3.1/libs/libogg.lib;../../../SDK/libvorbis-1.3.3/libs/libvorbis.lib;../../../SDK/libvorbis-1.3.3/libs/libvorbisfile.lib;../../../SDK/libpng-1.6.8/libs/libpng.lib;../../../SDK/zlib-1.2.8/libs/libzlib.lib;../../../SDK/freetype-2.6/libs/libfreetype.lib;../../../SDK/zziplib-0.13.59/libs/zziplib.lib;../../../SDK/lua-5.2.3/libs/liblua.lib;../../../SDK/box2d-2.0.1/libs/libbox2dd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\$(ProjectName)Lited.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugLite|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../../Source;../../Source/xx_Cabby_xx;../../../Base;../../../SDK/GLext;../../../SDK/openal/include;../../../SDK/libogg-1.3.1/include;../../../SDK/libvorbis-1.3.3/include;../../../SDK/libpng-1.6.8/include;../../../SDK/zlib-1.2.8/include;../../../SDK/freetype-2.6/include;../../../SDK/zziplib-0.13.59/include;../../../SDK/lua-5.2.3/include;../../../SDK/box2d-2.0.1/include;../../../SDK/tinyxml2/include;../../../SDK/curl-7.34.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;BASE_PLATFORM_WINDOWS;BASE_WINDOW_IOS;BASE_INPUT_NO_TOUCH_SUPPORT;BASE_SUPPORT_OPENGL;BASE_SUPPORT_OGG;BASE_SUPPORT_FREETYPE;BASE_SUPPORT_SCRIPTING;BASE_SUPPORT_SCORES;BASE_SUPPORT_FLURRY;CABBY_LITE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;opengl32.lib;glu32.lib;../../../SDK/openal/libs/Win64/OpenAL32.lib;../../../SDK/libogg-1.3.1/libs/x64/libogg_x64d.lib;../../../SDK/libvorbis-1.3.3/libs/x64/libvorbis_x64d.lib;../../../SDK/libvorbis-1.3.3/libs/x64/libvorbisfile_x64d.lib;../../../SDK/libpng-1.6.8/libs/x64/libpng_x64d.lib;../../../SDK/zlib-1.2.8/libs/x64/libzlib_x64d.lib;../../../SDK/freetype-2.6/libs/x64/libfreetype_x64d.lib;../../../SDK/zziplib-0.13.59/libs/x64/zziplib_x64d.lib;../../../SDK/lua-5.2.3/libs/x64/liblua_x64d.lib;../../../SDK/box2d-2.0.1/libs/x64/libbox2d_x64d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\$(ProjectName)Litex64d.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugFree|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../../Source;../../Source/xx_Cabby_xx;../../../Base;../../../SDK/GLext;../../../SDK/openal/include;../../../SDK/libogg-1.3.1/include;../../../SDK/libvorbis-1.3.3/include;../../../SDK/libpng-1.6.8/include;../../../SDK/zlib-1.2.8/include;../../../SDK/freetype-2.6/include;../../../SDK/zziplib-0.13.59/include;../../../SDK/lua-5.2.3/include;../../../SDK/box2d-2.0.1/include;../../../SDK/tinyxml2/include;../../../SDK/curl-7.34.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;BASE_PLATFORM_WINDOWS;BASE_WINDOW_IOS;BASE_INPUT_NO_TOUCH_SUPPORT;BASE_SUPPORT_OPENGL;BASE_SUPPORT_OGG;BASE_SUPPORT_FREETYPE;BASE_SUPPORT_SCRIPTING;BASE_SUPPORT_SCORES;BASE_SUPPORT_ADBAR;BASE_SUPPORT_FLURRY;CABBY_FREE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;opengl32.lib;glu32.lib;ws2_32.lib;wldap32.lib;../../../SDK/openal/libs/Win32/OpenAL32.lib;../../../SDK/libogg-1.3.1/libs/libogg.lib;../../../SDK/libvorbis-1.3.3/libs/libvorbis.lib;../../../SDK/libvorbis-1.3.3/libs/libvorbisfile.lib;../../../SDK/libpng-1.6.8/libs/libpng.lib;../../../SDK/zlib-1.2.8/libs/libzlib.lib;../../../SDK/freetype-2.6/libs/libfreetype.lib;../../../SDK/zziplib-0.13.59/libs/zziplib.lib;../../../SDK/lua-5.2.3/libs/liblua.lib;../../../SDK/box2d-2.0.1/libs/libbox2dd.lib;../../../SDK/tinyxml2/libs/libtinyxml2d.lib;../../../SDK/curl-7.34.0/libs/libcurld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\$(ProjectName)Freed.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugFree|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../../Source;../../Source/xx_Cabby_xx;../../../Base;../../../SDK/GLext;../../../SDK/openal/include;../../../SDK/libogg-1.3.1/include;../../../SDK/libvorbis-1.3.3/include;../../../SDK/libpng-1.6.8/include;../../../SDK/zlib-1.2.8/include;../../../SDK/freetype-2.6/include;../../../SDK/zziplib-0.13.59/include;../../../SDK/lua-5.2.3/include;../../../SDK/box2d-2.0.1/include;../../../SDK/tinyxml2/include;../../../SDK/curl-7.34.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;BASE_PLATFORM_WINDOWS;BASE_WINDOW_IOS;BASE_INPUT_NO_TOUCH_SUPPORT;BASE_SUPPORT_OPENGL;BASE_SUPPORT_OGG;BASE_SUPPORT_FREETYPE;BASE_SUPPORT_SCRIPTING;BASE_SUPPORT_SCORES;BASE_SUPPORT_ADBAR;BASE_SUPPORT_FLURRY;CABBY_FREE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;opengl32.lib;glu32.lib;ws2_32.lib;wldap32.lib;../../../SDK/openal/libs/Win64/OpenAL32.lib;../../../SDK/libogg-1.3.1/libs/x64/libogg_x64d.lib;../../../SDK/libvorbis-1.3.3/libs/x64/libvorbis_x64d.lib;../../../SDK/libvorbis-1.3.3/libs/x64/libvorbisfile_x64d.lib;../../../SDK/libpng-1.6.8/libs/x64/libpng_x64d.lib;../../../SDK/zlib-1.2.8/libs/x64/libzlib_x64d.lib;../../../SDK/freetype-2.6/libs/x64/libfreetype_x64d.lib;../../../SDK/zziplib-0.13.59/libs/x64/zziplib_x64d.lib;../../../SDK/lua-5.2.3/libs/x64/liblua_x64d.lib;../../../SDK/box2d-2.0.1/libs/x64/libbox2d_x64d.lib;../../../SDK/tinyxml2/libs/x64/libtinyxml2_x64d.lib;../../../SDK/curl-7.34.0/libs/x64/libcurl_x64d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\$(ProjectName)Freex64d.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>./;../../Source;../../Source/xx_Cabby_xx;../../../Base;../../../SDK/GLext;../../../SDK/openal/include;../../../SDK/libogg-1.3.1/include;../../../SDK/libvorbis-1.3.3/include;../../../SDK/libpng-1.6.8/include;../../../SDK/zlib-1.2.8/include;../../../SDK/freetype-2.6/include;../../../SDK/zziplib-0.13.59/include;../../../SDK/lua-5.2.3/include;../../../SDK/box2d-2.0.1/include;../../../SDK/tinyxml2/include;../../../SDK/curl-7.34.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;BASE_PLATFORM_WINDOWS;BASE_WINDOW_IOS;BASE_INPUT_NO_TOUCH_SUPPORT;BASE_SUPPORT_OPENGL;BASE_SUPPORT_OGG;BASE_SUPPORT_FREETYPE;BASE_SUPPORT_SCRIPTING;BASE_SUPPORT_SCORES;BASE_SUPPORT_KIIP;BASE_SUPPORT_FLURRY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;opengl32.lib;glu32.lib;../../../SDK/openal/libs/Win32/OpenAL32.lib;../../../SDK/libogg-1.3.1/libs/libogg.lib;../../../SDK/libvorbis-1.3.3/libs/libvorbis.lib;../../../SDK/libvorbis-1.3.3/libs/libvorbisfile.lib;../../../SDK/libpng-1.6.8/libs/libpng.lib;../../../SDK/zlib-1.2.8/libs/libzlib.lib;../../../SDK/freetype-2.6/libs/libfreetype.lib;../../../SDK/zziplib-0.13.59/libs/zziplib.lib;../../../SDK/lua-5.2.3/libs/liblua.lib;../../../SDK/box2d-2.0.1/libs/libbox2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>./;../../Source;../../Source/xx_Cabby_xx;../../../Base;../../../SDK/GLext;../../../SDK/openal/include;../../../SDK/libogg-1.3.1/include;../../../SDK/libvorbis-1.3.3/include;../../../SDK/libpng-1.6.8/include;../../../SDK/zlib-1.2.8/include;../../../SDK/freetype-2.6/include;../../../SDK/zziplib-0.13.59/include;../../../SDK/lua-5.2.3/include;../../../SDK/box2d-2.0.1/include;../../../SDK/tinyxml2/include;../../../SDK/curl-7.34.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;BASE_PLATFORM_WINDOWS;BASE_WINDOW_IOS;BASE_INPUT_NO_TOUCH_SUPPORT;BASE_SUPPORT_OPENGL;BASE_SUPPORT_OGG;BASE_SUPPORT_FREETYPE;BASE_SUPPORT_SCRIPTING;BASE_SUPPORT_SCORES;BASE_SUPPORT_KIIP;BASE_SUPPORT_FLURRY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;opengl32.lib;glu32.lib;../../../SDK/openal/libs/Win64/OpenAL32.lib;../../../SDK/libogg-1.3.1/libs/x64/libogg_x64.lib;../../../SDK/libvorbis-1.3.3/libs/x64/libvorbis_x64.lib;../../../SDK/libvorbis-1.3.3/libs/x64/libvorbisfile_x64.lib;../../../SDK/libpng-1.6.8/libs/x64/libpng_x64.lib;../../../SDK/zlib-1.2.8/libs/x64/libzlib_x64.lib;../../../SDK/freetype-2.6/libs/x64/libfreetype_x64.lib;../../../SDK/zziplib-0.13.59/libs/x64/zziplib_x64.lib;../../../SDK/lua-5.2.3/libs/x64/liblua_x64.lib;../../../SDK/box2d-2.0.1/libs/x64/libbox2d_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\$(ProjectName)x64.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseLite|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>./;../../Source;../../Source/xx_Cabby_xx;../../../Base;../../../SDK/GLext;../../../SDK/openal/include;../../../SDK/libogg-1.3.1/include;../../../SDK/libvorbis-1.3.3/include;../../../SDK/libpng-1.6.8/include;../../../SDK/zlib-1.2.8/include;../../../SDK/freetype-2.6/include;../../../SDK/zziplib-0.13.59/include;../../../SDK/lua-5.2.3/include;../../../SDK/box2d-2.0.1/include;../../../SDK/tinyxml2/include;../../../SDK/curl-7.34.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;BASE_PLATFORM_WINDOWS;BASE_WINDOW_IOS;BASE_INPUT_NO_TOUCH_SUPPORT;BASE_SUPPORT_OPENGL;BASE_SUPPORT_OGG;BASE_SUPPORT_FREETYPE;BASE_SUPPORT_SCRIPTING;BASE_SUPPORT_SCORES;BASE_SUPPORT_FLURRY;CABBY_LITE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;opengl32.lib;glu32.lib;../../../SDK/openal/libs/Win32/OpenAL32.lib;../../../SDK/libogg-1.3.1/libs/libogg.lib;../../../SDK/libvorbis-1.3.3/libs/libvorbis.lib;../../../SDK/libvorbis-1.3.3/libs/libvorbisfile.lib;../../../SDK/libpng-1.6.8/libs/libpng.lib;../../../SDK/zlib-1.2.8/libs/libzlib.lib;../../../SDK/freetype-2.6/libs/libfreetype.lib;../../../SDK/zziplib-0.13.59/libs/zziplib.lib;../../../SDK/lua-5.2.3/libs/liblua.lib;../../../SDK/box2d-2.0.1/libs/libbox2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\$(ProjectName)Lite.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseLite|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>./;../../Source;../../Source/xx_Cabby_xx;../../../Base;../../../SDK/GLext;../../../SDK/openal/include;../../../SDK/libogg-1.3.1/include;../../../SDK/libvorbis-1.3.3/include;../../../SDK/libpng-1.6.8/include;../../../SDK/zlib-1.2.8/include;../../../SDK/freetype-2.6/include;../../../SDK/zziplib-0.13.59/include;../../../SDK/lua-5.2.3/include;../../../SDK/box2d-2.0.1/include;../../../SDK/tinyxml2/include;../../../SDK/curl-7.34.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;BASE_PLATFORM_WINDOWS;BASE_WINDOW_IOS;BASE_INPUT_NO_TOUCH_SUPPORT;BASE_SUPPORT_OPENGL;BASE_SUPPORT_OGG;BASE_SUPPORT_FREETYPE;BASE_SUPPORT_SCRIPTING;BASE_SUPPORT_SCORES;BASE_SUPPORT_FLURRY;CABBY_LITE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;opengl32.lib;glu32.lib;../../../SDK/openal/libs/Win64/OpenAL32.lib;../../../SDK/libogg-1.3.1/libs/x64/libogg_x64.lib;../../../SDK/libvorbis-1.3.3/libs/x64/libvorbis_x64.lib;../../../SDK/libvorbis-1.3.3/libs/x64/libvorbisfile_x64.lib;../../../SDK/libpng-1.6.8/libs/x64/libpng_x64.lib;../../../SDK/zlib-1.2.8/libs/x64/libzlib_x64.lib;../../../SDK/freetype-2.6/libs/x64/libfreetype_x64.lib;../../../SDK/zziplib-0.13.59/libs/x64/zziplib_x64.lib;../../../SDK/lua-5.2.3/libs/x64/liblua_x64.lib;../../../SDK/box2d-2.0.1/libs/x64/libbox2d_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\$(ProjectName)Litex64.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseFree|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>./;../../Source;../../Source/xx_Cabby_xx;../../../Base;../../../SDK/GLext;../../../SDK/openal/include;../../../SDK/libogg-1.3.1/include;../../../SDK/libvorbis-1.3.3/include;../../../SDK/libpng-1.6.8/include;../../../SDK/zlib-1.2.8/include;../../../SDK/freetype-2.6/include;../../../SDK/zziplib-0.13.59/include;../../../SDK/lua-5.2.3/include;../../../SDK/box2d-2.0.1/include;../../../SDK/tinyxml2/include;../../../SDK/curl-7.34.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;BASE_PLATFORM_WINDOWS;BASE_WINDOW_IOS;BASE_INPUT_NO_TOUCH_SUPPORT;BASE_SUPPORT_OPENGL;BASE_SUPPORT_OGG;BASE_SUPPORT_FREETYPE;BASE_SUPPORT_SCRIPTING;BASE_SUPPORT_SCORES;BASE_SUPPORT_ADBAR;BASE_SUPPORT_FLURRY;CABBY_FREE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;opengl32.lib;glu32.lib;ws2_32.lib;wldap32.lib;../../../SDK/openal/libs/Win32/OpenAL32.lib;../../../SDK/libogg-1.3.1/libs/libogg.lib;../../../SDK/libvorbis-1.3.3/libs/libvorbis.lib;../../../SDK/libvorbis-1.3.3/libs/libvorbisfile.lib;../../../SDK/libpng-1.6.8/libs/libpng.lib;../../../SDK/zlib-1.2.8/libs/libzlib.lib;../../../SDK/freetype-2.6/libs/libfreetype.lib;../../../SDK/zziplib-0.13.59/libs/zziplib.lib;../../../SDK/lua-5.2.3/libs/liblua.lib;../../../SDK/box2d-2.0.1/libs/libbox2d.lib;../../../SDK/tinyxml2/libs/libtinyxml2.lib;../../../SDK/curl-7.34.0/libs/libcurl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\$(ProjectName)Free.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseFree|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>./;../../Source;../../Source/xx_Cabby_xx;../../../Base;../../../SDK/GLext;../../../SDK/openal/include;../../../SDK/libogg-1.3.1/include;../../../SDK/libvorbis-1.3.3/include;../../../SDK/libpng-1.6.8/include;../../../SDK/zlib-1.2.8/include;../../../SDK/freetype-2.6/include;../../../SDK/zziplib-0.13.59/include;../../../SDK/lua-5.2.3/include;../../../SDK/box2d-2.0.1/include;../../../SDK/tinyxml2/include;../../../SDK/curl-7.34.0/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;BASE_PLATFORM_WINDOWS;BASE_WINDOW_IOS;BASE_INPUT_NO_TOUCH_SUPPORT;BASE_SUPPORT_OPENGL;BASE_SUPPORT_OGG;BASE_SUPPORT_FREETYPE;BASE_SUPPORT_SCRIPTING;BASE_SUPPORT_SCORES;BASE_SUPPORT_ADBAR;BASE_SUPPORT_FLURRY;CABBY_FREE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;opengl32.lib;glu32.lib;ws2_32.lib;wldap32.lib;../../../SDK/openal/libs/Win64/OpenAL32.lib;../../../SDK/libogg-1.3.1/libs/x64/libogg_x64.lib;../../../SDK/libvorbis-1.3.3/libs/x64/libvorbis_x64.lib;../../../SDK/libvorbis-1.3.3/libs/x64/libvorbisfile_x64.lib;../../../SDK/libpng-1.6.8/libs/x64/libpng_x64.lib;../../../SDK/zlib-1.2.8/libs/x64/libzlib_x64.lib;../../../SDK/freetype-2.6/libs/x64/libfreetype_x64.lib;../../../SDK/zziplib-0.13.59/libs/x64/zziplib_x64.lib;../../../SDK/lua-5.2.3/libs/x64/liblua_x64.lib;../../../SDK/box2d-2.0.1/libs/x64/libbox2d_x64.lib;../../../SDK/tinyxml2/libs/x64/libtinyxml2_x64.lib;../../../SDK/curl-7.34.0/libs/x64/libcurl_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\bin\$(ProjectName)Freex64.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Base\CollisionBase.h" />
+    <ClInclude Include="..\..\..\Base\Collision\AABB.h" />
+    <ClInclude Include="..\..\..\Base\Collision\OBB.h" />
+    <ClInclude Include="..\..\..\Base\Collision\Sphere.h" />
+    <ClInclude Include="..\..\..\Base\CoreBase.h" />
+    <ClInclude Include="..\..\..\Base\Core\aos\AndroidApp.h" />
+    <ClInclude Include="..\..\..\Base\Core\aos\AndroidIncludes.h" />
+    <ClInclude Include="..\..\..\Base\Core\aos\AndroidMutex.h" />
+    <ClInclude Include="..\..\..\Base\Core\aos\AndroidThread.h" />
+    <ClInclude Include="..\..\..\Base\Core\aos\jniCore.h" />
+    <ClInclude Include="..\..\..\Base\Core\App.h" />
+    <ClInclude Include="..\..\..\Base\Core\CoreConsts.h" />
+    <ClInclude Include="..\..\..\Base\Core\CoreDefines.h" />
+    <ClInclude Include="..\..\..\Base\Core\CoreFunctions.h" />
+    <ClInclude Include="..\..\..\Base\Core\Endian.h" />
+    <ClInclude Include="..\..\..\Base\Core\FileIO.h" />
+    <ClInclude Include="..\..\..\Base\Core\ios\AppDelegate.h" />
+    <ClInclude Include="..\..\..\Base\Core\ios\EAGLView.h" />
+    <ClInclude Include="..\..\..\Base\Core\ios\iOSApp.h" />
+    <ClInclude Include="..\..\..\Base\Core\ios\iOSIncludes.h" />
+    <ClInclude Include="..\..\..\Base\Core\ios\iOSMutex.h" />
+    <ClInclude Include="..\..\..\Base\Core\ios\iOSThread.h" />
+    <ClInclude Include="..\..\..\Base\Core\ios\ViewController.h" />
+    <ClInclude Include="..\..\..\Base\Core\Mutex.h" />
+    <ClInclude Include="..\..\..\Base\Core\Thread.h" />
+    <ClInclude Include="..\..\..\Base\Core\win\WinApp.h" />
+    <ClInclude Include="..\..\..\Base\Core\win\WinIncludes.h" />
+    <ClInclude Include="..\..\..\Base\Core\win\WinMutex.h" />
+    <ClInclude Include="..\..\..\Base\Core\win\WinThread.h" />
+    <ClInclude Include="..\..\..\Base\DebugBase.h" />
+    <ClInclude Include="..\..\..\Base\Debug\Assertion.h" />
+    <ClInclude Include="..\..\..\Base\Debug\DebugFont.h" />
+    <ClInclude Include="..\..\..\Base\Debug\DebugLogging.h" />
+    <ClInclude Include="..\..\..\Base\Debug\FF\DebugPrint.h" />
+    <ClInclude Include="..\..\..\Base\Debug\GLSL\DebugPrintGLSL.h" />
+    <ClInclude Include="..\..\..\Base\InputBase.h" />
+    <ClInclude Include="..\..\..\Base\Input\aos\AndroidInput.h" />
+    <ClInclude Include="..\..\..\Base\Input\Input.h" />
+    <ClInclude Include="..\..\..\Base\Input\InputDeviceController.h" />
+    <ClInclude Include="..\..\..\Base\Input\InputInclude.h" />
+    <ClInclude Include="..\..\..\Base\Input\InputManager.h" />
+    <ClInclude Include="..\..\..\Base\Input\ios\iOSInput.h" />
+    <ClInclude Include="..\..\..\Base\Input\win\WinInput.h" />
+    <ClInclude Include="..\..\..\Base\MathBase.h" />
+    <ClInclude Include="..\..\..\Base\Math\MathConsts.h" />
+    <ClInclude Include="..\..\..\Base\Math\MathFunctions.h" />
+    <ClInclude Include="..\..\..\Base\Math\Matrix.h" />
+    <ClInclude Include="..\..\..\Base\Math\Quaternion.h" />
+    <ClInclude Include="..\..\..\Base\Math\RandomTables.h" />
+    <ClInclude Include="..\..\..\Base\Math\Vectors.h" />
+    <ClInclude Include="..\..\..\Base\ModelBase.h" />
+    <ClInclude Include="..\..\..\Base\Model\FF\Mesh.h" />
+    <ClInclude Include="..\..\..\Base\Model\FF\ModelHGA.h" />
+    <ClInclude Include="..\..\..\Base\Model\FF\ModelHGM.h" />
+    <ClInclude Include="..\..\..\Base\Model\FF\SkinMesh.h" />
+    <ClInclude Include="..\..\..\Base\Model\GLSL\MeshGLSL.h" />
+    <ClInclude Include="..\..\..\Base\Model\GLSL\ModelHGAGLSL.h" />
+    <ClInclude Include="..\..\..\Base\Model\GLSL\ModelHGMGLSL.h" />
+    <ClInclude Include="..\..\..\Base\Model\GLSL\SkinMeshGLSL.h" />
+    <ClInclude Include="..\..\..\Base\Model\Model.h" />
+    <ClInclude Include="..\..\..\Base\Model\ModelCommon.h" />
+    <ClInclude Include="..\..\..\Base\PhysicsBase.h" />
+    <ClInclude Include="..\..\..\Base\PlatformBase.h" />
+    <ClInclude Include="..\..\..\Base\RenderBase.h" />
+    <ClInclude Include="..\..\..\Base\Render\AdvertBarCommon.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\AdvertBar.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\FreetypeFont.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\ExtensionsOES.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\gluSupport.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\OpenGLES.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\PlatformOpenGLInclude.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\RenderToTextureOES.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\SpriteOES.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\TextureLoadAndUploadOES.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\Extensions.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\OpenGL.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\PlatformOpenGLInclude.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\RenderToTexture.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\Sprite.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\TextureLoadAndUpload.h" />
+    <ClInclude Include="..\..\..\Base\Render\FF\Primitives.h" />
+    <ClInclude Include="..\..\..\Base\Render\FreetypeCommon.h" />
+    <ClInclude Include="..\..\..\Base\Render\FreetypeFontZZip.h" />
+    <ClInclude Include="..\..\..\Base\Render\FreetypeZZipAccess.h" />
+    <ClInclude Include="..\..\..\Base\Render\GLSL\AdvertBarGLSL.h" />
+    <ClInclude Include="..\..\..\Base\Render\GLSL\FreetypeFontGLSL.h" />
+    <ClInclude Include="..\..\..\Base\Render\GLSL\glewES.h" />
+    <ClInclude Include="..\..\..\Base\Render\GLSL\gluSupportGLSL.h" />
+    <ClInclude Include="..\..\..\Base\Render\GLSL\OpenGLSL.h" />
+    <ClInclude Include="..\..\..\Base\Render\GLSL\PlatformOpenGLInclude.h" />
+    <ClInclude Include="..\..\..\Base\Render\GLSL\PrimitivesGLSL.h" />
+    <ClInclude Include="..\..\..\Base\Render\GLSL\ShaderShared.h" />
+    <ClInclude Include="..\..\..\Base\Render\GLSL\TextureLoadAndUploadGLSL.h" />
+    <ClInclude Include="..\..\..\Base\Render\OpenGLCommon.h" />
+    <ClInclude Include="..\..\..\Base\Render\PlatformRenderBase.h" />
+    <ClInclude Include="..\..\..\Base\Render\RenderConsts.h" />
+    <ClInclude Include="..\..\..\Base\Render\Texture.h" />
+    <ClInclude Include="..\..\..\Base\Render\TextureAtlas.h" />
+    <ClInclude Include="..\..\..\Base\Render\TextureShared.h" />
+    <ClInclude Include="..\..\..\Base\ScriptBase.h" />
+    <ClInclude Include="..\..\..\Base\Script\BaseScriptSupport.h" />
+    <ClInclude Include="..\..\..\Base\Script\box2d\PhysicsAccessB2D.h" />
+    <ClInclude Include="..\..\..\Base\Script\LuaScripting.h" />
+    <ClInclude Include="..\..\..\Base\Script\ScriptConsts.h" />
+    <ClInclude Include="..\..\..\Base\SoundBase.h" />
+    <ClInclude Include="..\..\..\Base\Sound\aos\AndroidSound.h" />
+    <ClInclude Include="..\..\..\Base\Sound\aos\AndroidSoundStream.h" />
+    <ClInclude Include="..\..\..\Base\Sound\aos\PlatformOpenALInclude.h" />
+    <ClInclude Include="..\..\..\Base\Sound\ios\iOSSound.h" />
+    <ClInclude Include="..\..\..\Base\Sound\ios\iOSSoundStream.h" />
+    <ClInclude Include="..\..\..\Base\Sound\ios\PlatformOpenALInclude.h" />
+    <ClInclude Include="..\..\..\Base\Sound\OpenAL.h" />
+    <ClInclude Include="..\..\..\Base\Sound\PlatformSoundBase.h" />
+    <ClInclude Include="..\..\..\Base\Sound\Sound.h" />
+    <ClInclude Include="..\..\..\Base\Sound\SoundCodecs.h" />
+    <ClInclude Include="..\..\..\Base\Sound\SoundCommon.h" />
+    <ClInclude Include="..\..\..\Base\Sound\SoundLoadAndUpload.h" />
+    <ClInclude Include="..\..\..\Base\Sound\SoundManager.h" />
+    <ClInclude Include="..\..\..\Base\Sound\SoundStream.h" />
+    <ClInclude Include="..\..\..\Base\Sound\win\PlatformOpenALInclude.h" />
+    <ClInclude Include="..\..\..\Base\Sound\win\WinSound.h" />
+    <ClInclude Include="..\..\..\Base\Sound\win\WinSoundStream.h" />
+    <ClInclude Include="..\..\..\Base\SupportBase.h" />
+    <ClInclude Include="..\..\..\Base\Support\aos\AndroidPurchase.h" />
+    <ClInclude Include="..\..\..\Base\Support\aos\AndroidScores.h" />
+    <ClInclude Include="..\..\..\Base\Support\ios\AppStorePurchases.h" />
+    <ClInclude Include="..\..\..\Base\Support\ios\GameCenterManager.h" />
+    <ClInclude Include="..\..\..\Base\Support\ios\iOSPurchase.h" />
+    <ClInclude Include="..\..\..\Base\Support\ios\iOSScores.h" />
+    <ClInclude Include="..\..\..\Base\Support\Leaderboards.h" />
+    <ClInclude Include="..\..\..\Base\Support\Purchase.h" />
+    <ClInclude Include="..\..\..\Base\Support\PurchaseCommon.h" />
+    <ClInclude Include="..\..\..\Base\Support\Scores.h" />
+    <ClInclude Include="..\..\..\Base\Support\ScoresCommon.h" />
+    <ClInclude Include="..\..\..\Base\Support\win\WinPurchase.h" />
+    <ClInclude Include="..\..\..\Base\Support\win\WinScores.h" />
+    <ClInclude Include="..\..\Source\Audio\aos\AndroidAudioSystemBase.h" />
+    <ClInclude Include="..\..\Source\Audio\AudioSystem.h" />
+    <ClInclude Include="..\..\Source\Audio\CustomerAudio.h" />
+    <ClInclude Include="..\..\Source\Audio\ios\iOSAudioSystemBase.h" />
+    <ClInclude Include="..\..\Source\Audio\ios\MusicMediaPlayer.h" />
+    <ClInclude Include="..\..\Source\Audio\Sfx.h" />
+    <ClInclude Include="..\..\Source\Audio\win\WinAudioSystemBase.h" />
+    <ClInclude Include="..\..\Source\Cabby.h" />
+    <ClInclude Include="..\..\Source\CabbyConsts.h" />
+    <ClInclude Include="..\..\Source\Camera\GameCamera.h" />
+    <ClInclude Include="..\..\Source\Effects\WaveGrid.h" />
+    <ClInclude Include="..\..\Source\GameEffects\FullscreenEffects.h" />
+    <ClInclude Include="..\..\Source\GameSystems.h" />
+    <ClInclude Include="..\..\Source\Resources\AchievementList.h" />
+    <ClInclude Include="..\..\Source\Resources\AnimatedResources.h" />
+    <ClInclude Include="..\..\Source\Resources\EmitterResources.h" />
+    <ClInclude Include="..\..\Source\Resources\FontResources.h" />
+    <ClInclude Include="..\..\Source\Resources\IAPList.h" />
+    <ClInclude Include="..\..\Source\Resources\ModelResources.h" />
+    <ClInclude Include="..\..\Source\Resources\ResourceHelper.h" />
+    <ClInclude Include="..\..\Source\Resources\SoundResources.h" />
+    <ClInclude Include="..\..\Source\Resources\SpriteResources.h" />
+    <ClInclude Include="..\..\Source\Resources\StringResources.h" />
+    <ClInclude Include="..\..\Source\Resources\TextureResources.h" />
+    <ClInclude Include="..\..\Source\StateManage\IState.h" />
+    <ClInclude Include="..\..\Source\StateManage\StateManager.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Customers\Customer.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Customers\CustomerAnimationLookup.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Customers\CustomerManagement.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\IBaseGameState.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\MainGameState.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\SpecialEndingState.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\TitleScreenState.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\AchievementUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\ControlsPhoneRetinaUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\ControlsPhoneSDUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\ControlsTabletRetinaUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\ControlsTabletSDUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\ControlsUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\FrontendInAppPurchaseUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\FrontendItemSelectUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\FrontendPromptsUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\FrontendUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GameCompleteUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GameOverArcadeUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GameOverCareerContinueUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GameOverCareerUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\achievement_popup.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\achievement_popup.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\controls_phone_sd.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\controls_phone_sd.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\controls_tablet_sd.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\controls_tablet_sd.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\frontend.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\frontend.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\frontend_inapppurchase.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\frontend_inapppurchase.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\frontend_itemselect.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\frontend_itemselect.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\frontend_prompts.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\frontend_prompts.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\gameover_arcade.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\gameover_arcade.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\gameover_career.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\gameover_career.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\gameover_career_continue.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\gameover_career_continue.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\game_complete.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\game_complete.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\hud.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\hud.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\icons_phone_sd.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\icons_phone_sd.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\icons_tablet_sd.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\icons_tablet_sd.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\level_complete_arcade.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\level_complete_arcade.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\level_complete_career.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\level_complete_career.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\level_start.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\level_start.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\pause.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\pause.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\timeup.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\timeup.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\titlescreen.hgm.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GeneratedFiles\titlescreen.hui.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\HudUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\IconsPhoneRetinaUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\IconsPhoneSDUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\IconsTabletSDUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\IconsUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\LevelCompleteArcadeUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\LevelCompleteCareerUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\LevelStartUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\MainGameUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\PauseUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\TextFormattingFuncs.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\TimeUpUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\TitleScreenUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\UIBaseState.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\UIFileLoader.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\UIIds.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UI\UnlockUI.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\GameStates\UnlockState.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\InputSystem\InputSystem.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Level\Level.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Level\LevelTypes.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Box2DDebugDraw.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\BaseEnemy.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\Bomb.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\BouncingBomb.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\DustDevil.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\Fish.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\Mine.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\Piranha.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\PufferFish.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\Rat.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\Sentry.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Objects\BaseDoor.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Objects\BasePort.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Objects\BaseShape.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Objects\DoorSlideDown.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Objects\DoorSlideLeft.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Objects\DoorSlideRight.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Objects\DoorSlideUp.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Objects\HShape.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Objects\IShape.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Objects\Port.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Objects\UShape.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Objects\XShape.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\Objects\YShape.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\PhysicsIdentifier.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\PhysicsIds.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Physics\PhysicsWorld.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\Player\Player.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\ScriptAccess\Cabby\CabbyAccess.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\ScriptAccess\Cabby\FogAccess.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\ScriptAccess\Cabby\LightAccess.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\ScriptAccess\Cabby\VehicleAccess.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\ScriptAccess\ScriptDataHolder.h" />
+    <ClInclude Include="..\..\Source\Camera\Camera.h" />
+    <ClInclude Include="..\..\Source\Camera\DebugCamera.h" />
+    <ClInclude Include="..\..\Source\Effects\Emitter.h" />
+    <ClInclude Include="..\..\Source\Profiles\ProfileManager.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\ScriptAccess\PhysicsAccess.h" />
+    <ClInclude Include="..\..\Source\xx_Cabby_xx\ScriptAccess\ScriptAccess.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Base\Collision\AABB.cpp" />
+    <ClCompile Include="..\..\..\Base\Collision\OBB.cpp" />
+    <ClCompile Include="..\..\..\Base\Collision\Sphere.cpp" />
+    <ClCompile Include="..\..\..\Base\Core\aos\AndroidApp.cpp" />
+    <ClCompile Include="..\..\..\Base\Core\aos\AndroidMutex.cpp" />
+    <ClCompile Include="..\..\..\Base\Core\aos\AndroidThread.cpp" />
+    <ClCompile Include="..\..\..\Base\Core\aos\jniCore.cpp" />
+    <ClCompile Include="..\..\..\Base\Core\App.cpp" />
+    <ClCompile Include="..\..\..\Base\Core\CoreFunctions.cpp" />
+    <ClCompile Include="..\..\..\Base\Core\Endian.cpp" />
+    <ClCompile Include="..\..\..\Base\Core\FileIO.cpp" />
+    <ClCompile Include="..\..\..\Base\Core\ios\iOSApp.cpp" />
+    <ClCompile Include="..\..\..\Base\Core\ios\iOSMutex.cpp" />
+    <ClCompile Include="..\..\..\Base\Core\ios\iOSThread.cpp" />
+    <ClCompile Include="..\..\..\Base\Core\win\WinApp.cpp" />
+    <ClCompile Include="..\..\..\Base\Core\win\WinMutex.cpp" />
+    <ClCompile Include="..\..\..\Base\Core\win\WinThread.cpp" />
+    <ClCompile Include="..\..\..\Base\Debug\Assertion.cpp" />
+    <ClCompile Include="..\..\..\Base\Debug\DebugLogging.cpp" />
+    <ClCompile Include="..\..\..\Base\Debug\FF\DebugPrint.cpp" />
+    <ClCompile Include="..\..\..\Base\Debug\GLSL\DebugPrintGLSL.cpp" />
+    <ClCompile Include="..\..\..\Base\Input\Input.cpp" />
+    <ClCompile Include="..\..\..\Base\Input\InputDeviceController.cpp" />
+    <ClCompile Include="..\..\..\Base\Input\InputManager.cpp" />
+    <ClCompile Include="..\..\..\Base\Math\MathFunctions.cpp" />
+    <ClCompile Include="..\..\..\Base\Math\Matrix.cpp" />
+    <ClCompile Include="..\..\..\Base\Math\Quaternion.cpp" />
+    <ClCompile Include="..\..\..\Base\Math\RandomTables.cpp" />
+    <ClCompile Include="..\..\..\Base\Math\Vectors.cpp" />
+    <ClCompile Include="..\..\..\Base\Model\FF\Mesh.cpp" />
+    <ClCompile Include="..\..\..\Base\Model\FF\ModelHGA.cpp" />
+    <ClCompile Include="..\..\..\Base\Model\FF\ModelHGM.cpp" />
+    <ClCompile Include="..\..\..\Base\Model\FF\SkinMesh.cpp" />
+    <ClCompile Include="..\..\..\Base\Model\GLSL\MeshGLSL.cpp" />
+    <ClCompile Include="..\..\..\Base\Model\GLSL\ModelHGAGLSL.cpp" />
+    <ClCompile Include="..\..\..\Base\Model\GLSL\ModelHGMGLSL.cpp" />
+    <ClCompile Include="..\..\..\Base\Model\GLSL\SkinMeshGLSL.cpp" />
+    <ClCompile Include="..\..\..\Base\Model\Model.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\FF\AdvertBar.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\FF\FreetypeFont.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\ExtensionsOES.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\gluSupport.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\OpenGLES.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\RenderToTextureOES.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\SpriteOES.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\TextureLoadAndUploadOES.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGL\Extensions.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGL\OpenGL.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGL\RenderToTexture.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGL\Sprite.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGL\TextureLoadAndUpload.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\FF\Primitives.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\FreetypeFontZZip.c" />
+    <ClCompile Include="..\..\..\Base\Render\FreetypeZZipAccess.c" />
+    <ClCompile Include="..\..\..\Base\Render\GLSL\AdvertBarGLSL.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\GLSL\FreetypeFontGLSL.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\GLSL\glewES.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\GLSL\gluSupportGLSL.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\GLSL\OpenGLSL.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\GLSL\PrimitivesGLSL.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\GLSL\ShaderShared.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\GLSL\TextureLoadAndUploadGLSL.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\OpenGLCommon.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\Texture.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\TextureAtlas.cpp" />
+    <ClCompile Include="..\..\..\Base\Render\TextureShared.cpp" />
+    <ClCompile Include="..\..\..\Base\Script\BaseScriptSupport.cpp" />
+    <ClCompile Include="..\..\..\Base\Script\box2d\PhysicsAccessB2D.cpp" />
+    <ClCompile Include="..\..\..\Base\Script\LuaScripting.cpp" />
+    <ClCompile Include="..\..\..\Base\Sound\aos\AndroidSound.cpp" />
+    <ClCompile Include="..\..\..\Base\Sound\aos\AndroidSoundStream.cpp" />
+    <ClCompile Include="..\..\..\Base\Sound\ios\iOSSound.cpp" />
+    <ClCompile Include="..\..\..\Base\Sound\ios\iOSSoundStream.cpp" />
+    <ClCompile Include="..\..\..\Base\Sound\OpenAL.cpp" />
+    <ClCompile Include="..\..\..\Base\Sound\Sound.cpp" />
+    <ClCompile Include="..\..\..\Base\Sound\SoundCodecs.cpp" />
+    <ClCompile Include="..\..\..\Base\Sound\SoundLoadAndUpload.cpp" />
+    <ClCompile Include="..\..\..\Base\Sound\SoundManager.cpp" />
+    <ClCompile Include="..\..\..\Base\Sound\SoundStream.cpp" />
+    <ClCompile Include="..\..\..\Base\Sound\win\WinSound.cpp" />
+    <ClCompile Include="..\..\..\Base\Sound\win\WinSoundStream.cpp" />
+    <ClCompile Include="..\..\..\Base\Support\aos\AndroidPurchase.cpp" />
+    <ClCompile Include="..\..\..\Base\Support\aos\AndroidScores.cpp" />
+    <ClCompile Include="..\..\..\Base\Support\ios\iOSPurchase.cpp" />
+    <ClCompile Include="..\..\..\Base\Support\ios\iOSScores.cpp" />
+    <ClCompile Include="..\..\..\Base\Support\Leaderboards.cpp" />
+    <ClCompile Include="..\..\..\Base\Support\Purchase.cpp" />
+    <ClCompile Include="..\..\..\Base\Support\Scores.cpp" />
+    <ClCompile Include="..\..\..\Base\Support\win\WinPurchase.cpp" />
+    <ClCompile Include="..\..\..\Base\Support\win\WinScores.cpp" />
+    <ClCompile Include="..\..\Source\Audio\aos\AndroidAudioSystemBase.cpp" />
+    <ClCompile Include="..\..\Source\Audio\AudioSystem.cpp" />
+    <ClCompile Include="..\..\Source\Audio\CustomerAudio.cpp" />
+    <ClCompile Include="..\..\Source\Audio\ios\iOSAudioSystemBase.cpp" />
+    <ClCompile Include="..\..\Source\Audio\Sfx.cpp" />
+    <ClCompile Include="..\..\Source\Audio\win\WinAudioSystemBase.cpp" />
+    <ClCompile Include="..\..\Source\Cabby.cpp" />
+    <ClCompile Include="..\..\Source\Camera\GameCamera.cpp" />
+    <ClCompile Include="..\..\Source\Effects\WaveGrid.cpp" />
+    <ClCompile Include="..\..\Source\GameEffects\FullscreenEffects.cpp" />
+    <ClCompile Include="..\..\Source\GameSystems.cpp" />
+    <ClCompile Include="..\..\Source\mainRaspberryPi.cpp" />
+    <ClCompile Include="..\..\Source\Resources\AchievementList.cpp" />
+    <ClCompile Include="..\..\Source\Resources\AnimatedResources.cpp" />
+    <ClCompile Include="..\..\Source\Resources\EmitterResources.cpp" />
+    <ClCompile Include="..\..\Source\Resources\FontResources.cpp" />
+    <ClCompile Include="..\..\Source\Resources\IAPList.cpp" />
+    <ClCompile Include="..\..\Source\Resources\ModelResources.cpp" />
+    <ClCompile Include="..\..\Source\Resources\ResourceHelper.cpp" />
+    <ClCompile Include="..\..\Source\Resources\SoundResources.cpp" />
+    <ClCompile Include="..\..\Source\Resources\SpriteResources.cpp" />
+    <ClCompile Include="..\..\Source\Resources\StringResources.cpp" />
+    <ClCompile Include="..\..\Source\Resources\TextureResources.cpp" />
+    <ClCompile Include="..\..\Source\StateManage\StateManager.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Customers\Customer.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Customers\CustomerAnimationLookup.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Customers\CustomerManagement.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\MainGameState.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\SpecialEndingState.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\TitleScreenState.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\AchievementUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\ControlsPhoneRetinaUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\ControlsPhoneSDUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\ControlsTabletRetinaUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\ControlsTabletSDUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\ControlsUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\FrontendInAppPurchaseUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\FrontendItemSelectUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\FrontendPromptsUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\FrontendUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GameCompleteUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GameOverArcadeUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GameOverCareerContinueUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\GameOverCareerUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\HudUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\IconsPhoneRetinaUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\IconsPhoneSDUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\IconsTabletSDUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\IconsUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\LevelCompleteArcadeUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\LevelCompleteCareerUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\LevelStartUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\MainGameUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\PauseUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\TextFormattingFuncs.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\TimeUpUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\TitleScreenUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\UIBaseState.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\UIFileLoader.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UI\UnlockUI.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\GameStates\UnlockState.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\InputSystem\InputSystem.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Level\Level.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Box2DDebugDraw.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\Bomb.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\BouncingBomb.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\DustDevil.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\Fish.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\Mine.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\Piranha.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\PufferFish.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\Rat.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Enemies\Sentry.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Objects\DoorSlideDown.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Objects\DoorSlideLeft.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Objects\DoorSlideRight.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Objects\DoorSlideUp.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Objects\HShape.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Objects\IShape.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Objects\Port.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Objects\UShape.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Objects\XShape.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\Objects\YShape.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Physics\PhysicsWorld.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\Player\Player.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\ScriptAccess\Cabby\CabbyAccess.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\ScriptAccess\Cabby\FogAccess.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\ScriptAccess\Cabby\LightAccess.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\ScriptAccess\Cabby\VehicleAccess.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\ScriptAccess\ScriptDataHolder.cpp" />
+    <ClCompile Include="..\..\Source\Camera\Camera.cpp" />
+    <ClCompile Include="..\..\Source\Camera\DebugCamera.cpp" />
+    <ClCompile Include="..\..\Source\Effects\Emitter.cpp" />
+    <ClCompile Include="..\..\Source\main.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\ScriptAccess\PhysicsAccess.cpp" />
+    <ClCompile Include="..\..\Source\xx_Cabby_xx\ScriptAccess\ScriptAccess.cpp" />
+    <ClCompile Include="..\..\Source\mainAndroid.cpp" />
+    <ClCompile Include="..\..\Source\Profiles\ProfileManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Base\Core\ios\AppDelegate.mm" />
+    <None Include="..\..\..\Base\Core\ios\ViewController.mm" />
+    <None Include="..\..\..\Base\Support\ios\AppStorePurchases.mm" />
+    <None Include="..\..\..\Base\Support\ios\GameCenterManager.mm" />
+    <None Include="..\..\Source\Audio\ios\MusicMediaPlayer.mm" />
+    <None Include="..\..\Source\mainiOS.m" />
+    <None Include="..\..\Source\mainMac.m" />
+    <None Include="cabby.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="h2.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

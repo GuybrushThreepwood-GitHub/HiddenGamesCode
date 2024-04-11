@@ -1,0 +1,127 @@
+name: Hidden Games Projects Windows Build
+
+on: [push, pull_request]
+
+defaults:
+ run:
+  working-directory: ./
+  
+jobs:
+  build:
+    name: MSVC Compile
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - {
+              name: "Windows Latest MSVC",
+              artifact: "Windows-MSVC.tar.xz",
+              os: windows-latest,
+              build_type: "Release",
+              cc: "cl",
+              cxx: "cl",
+              environment_script: "C:/Program Files (x86)/Microsoft Visual Studio/2022/Enterprise/VC/Auxiliary/Build/vcvars64.bat",
+            }
+
+    steps:
+      - name: Setup VS Dev Environment
+        uses: seanmiddleditch/gha-setup-vsdevenv@v4
+
+      # Get latest code
+      - name: Checkout code repository
+        uses: actions/checkout@v4
+
+      # Get data
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+        with:
+          repository: 'GuybrushThreepwood-GitHub/HiddenGamesData'
+          ref: "main"
+          path: _data
+
+      # Compile the SDK and games
+      - name: Build all
+        shell: pwsh
+        run: |
+          ls
+          cd "${{ github.workspace }}\__build\vs17"
+          ./build_release.bat
+      
+      # Copy each executable to the data path
+      - name: Copy executables
+        shell: pwsh
+        run: |
+          cd "${{ github.workspace }}\H1\bin"
+          cp h1x64.exe "${{ github.workspace }}\_data\h1\game\aircadets.exe"
+          cd "${{ github.workspace }}\H2\bin"
+          cp h2x64.exe "${{ github.workspace }}\_data\h2\game\full\cabby.exe"
+          cd "${{ github.workspace }}\H4\bin"
+          cp h4x64.exe "${{ github.workspace }}\_data\h4\game\prisoner84.exe"
+          cd "${{ github.workspace }}\H8\bin"
+          cp h8x64.exe "${{ github.workspace }}\_data\h8\game\firewall.exe"
+
+      - name: Zip AC
+        uses: vimtor/action-zip@v1.2
+        with:
+          files: _data\h1\game
+          recursive: true
+          dest: AirCadets.zip
+
+      - name: Zip Cabby
+        uses: vimtor/action-zip@v1.2
+        with:
+          files: _data\h2\game\full
+          recursive: true
+          dest: Cabby.zip
+
+      - name: Zip Prisoner84
+        uses: vimtor/action-zip@v1.2
+        with:
+          files: _data\h4\game
+          recursive: true
+          dest: Prisoner84.zip
+
+      - name: Zip Firewall
+        uses: vimtor/action-zip@v1.2
+        with:
+          files: _data\h8\game
+          recursive: true
+          dest: Firewall.zip
+
+      # Upload the artifacts
+      - name: Upload AirCadets
+        uses: actions/upload-artifact@v4
+        with:
+          path: ${{ github.workspace }}\_data\h1\game
+          name: AirCadets
+
+      - name: Upload Cabby
+        uses: actions/upload-artifact@v4
+        with:
+          path: ${{ github.workspace }}\_data\h2\game\full
+          name: Cabby
+
+      - name: Upload Prisoner84
+        uses: actions/upload-artifact@v4
+        with:
+          path: ${{ github.workspace }}\_data\h4\game
+          name: Prisoner84
+
+      - name: Upload Firewall
+        uses: actions/upload-artifact@v4
+        with:
+          path: ${{ github.workspace }}\_data\h8\game
+          name: Firewall
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          repository: 'GuybrushThreepwood-GitHub/HiddenGamesCode'
+          token: ${{ secrets.GH_PAT }}        
+          files: |
+            AirCadets.zip
+            Cabby.zip
+            Prisoner84.zip
+            Firewall.zip

@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527602AF14BC69B900A65078 /* dir.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602A314BC69B900A65078 /* dir.c */; };
+		527602B014BC69B900A65078 /* err.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602A414BC69B900A65078 /* err.c */; };
+		527602B114BC69B900A65078 /* fetch.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602A514BC69B900A65078 /* fetch.c */; };
+		527602B214BC69B900A65078 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602A614BC69B900A65078 /* file.c */; };
+		527602B314BC69B900A65078 /* fseeko.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602A714BC69B900A65078 /* fseeko.c */; };
+		527602B414BC69B900A65078 /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602A814BC69B900A65078 /* info.c */; };
+		527602B514BC69B900A65078 /* memdisk.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602A914BC69B900A65078 /* memdisk.c */; };
+		527602B614BC69B900A65078 /* mmapped.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602AA14BC69B900A65078 /* mmapped.c */; };
+		527602B714BC69B900A65078 /* plugin.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602AB14BC69B900A65078 /* plugin.c */; };
+		527602B814BC69B900A65078 /* stat.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602AC14BC69B900A65078 /* stat.c */; };
+		527602B914BC69B900A65078 /* write.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602AD14BC69B900A65078 /* write.c */; };
+		527602BA14BC69B900A65078 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602AE14BC69B900A65078 /* zip.c */; };
+		5297E19518ABC2C8007747B0 /* dir.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602A314BC69B900A65078 /* dir.c */; };
+		5297E19618ABC2C8007747B0 /* err.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602A414BC69B900A65078 /* err.c */; };
+		5297E19718ABC2C8007747B0 /* fetch.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602A514BC69B900A65078 /* fetch.c */; };
+		5297E19818ABC2C8007747B0 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602A614BC69B900A65078 /* file.c */; };
+		5297E19918ABC2C8007747B0 /* fseeko.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602A714BC69B900A65078 /* fseeko.c */; };
+		5297E19A18ABC2C8007747B0 /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602A814BC69B900A65078 /* info.c */; };
+		5297E19B18ABC2C8007747B0 /* memdisk.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602A914BC69B900A65078 /* memdisk.c */; };
+		5297E19C18ABC2C8007747B0 /* mmapped.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602AA14BC69B900A65078 /* mmapped.c */; };
+		5297E19D18ABC2C8007747B0 /* plugin.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602AB14BC69B900A65078 /* plugin.c */; };
+		5297E19E18ABC2C8007747B0 /* stat.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602AC14BC69B900A65078 /* stat.c */; };
+		5297E19F18ABC2C8007747B0 /* write.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602AD14BC69B900A65078 /* write.c */; };
+		5297E1A018ABC2C8007747B0 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 527602AE14BC69B900A65078 /* zip.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5276029814BC68E600A65078 /* libzziplibd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libzziplibd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		527602A314BC69B900A65078 /* dir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dir.c; path = ../../../src/zzip/dir.c; sourceTree = "<group>"; };
+		527602A414BC69B900A65078 /* err.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = err.c; path = ../../../src/zzip/err.c; sourceTree = "<group>"; };
+		527602A514BC69B900A65078 /* fetch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fetch.c; path = ../../../src/zzip/fetch.c; sourceTree = "<group>"; };
+		527602A614BC69B900A65078 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = file.c; path = ../../../src/zzip/file.c; sourceTree = "<group>"; };
+		527602A714BC69B900A65078 /* fseeko.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fseeko.c; path = ../../../src/zzip/fseeko.c; sourceTree = "<group>"; };
+		527602A814BC69B900A65078 /* info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = info.c; path = ../../../src/zzip/info.c; sourceTree = "<group>"; };
+		527602A914BC69B900A65078 /* memdisk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = memdisk.c; path = ../../../src/zzip/memdisk.c; sourceTree = "<group>"; };
+		527602AA14BC69B900A65078 /* mmapped.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mmapped.c; path = ../../../src/zzip/mmapped.c; sourceTree = "<group>"; };
+		527602AB14BC69B900A65078 /* plugin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = plugin.c; path = ../../../src/zzip/plugin.c; sourceTree = "<group>"; };
+		527602AC14BC69B900A65078 /* stat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stat.c; path = ../../../src/zzip/stat.c; sourceTree = "<group>"; };
+		527602AD14BC69B900A65078 /* write.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = write.c; path = ../../../src/zzip/write.c; sourceTree = "<group>"; };
+		527602AE14BC69B900A65078 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zip.c; path = ../../../src/zzip/zip.c; sourceTree = "<group>"; };
+		5297E1A618ABC2C8007747B0 /* libzziplibd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libzziplibd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5276029514BC68E600A65078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5297E1A118ABC2C8007747B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5276028D14BC68E500A65078 = {
+			isa = PBXGroup;
+			children = (
+				5276029F14BC698100A65078 /* src */,
+				5276029914BC68E600A65078 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5276029914BC68E600A65078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5276029814BC68E600A65078 /* libzziplibd.a */,
+				5297E1A618ABC2C8007747B0 /* libzziplibd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5276029F14BC698100A65078 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				527602A314BC69B900A65078 /* dir.c */,
+				527602A414BC69B900A65078 /* err.c */,
+				527602A514BC69B900A65078 /* fetch.c */,
+				527602A614BC69B900A65078 /* file.c */,
+				527602A714BC69B900A65078 /* fseeko.c */,
+				527602A814BC69B900A65078 /* info.c */,
+				527602A914BC69B900A65078 /* memdisk.c */,
+				527602AA14BC69B900A65078 /* mmapped.c */,
+				527602AB14BC69B900A65078 /* plugin.c */,
+				527602AC14BC69B900A65078 /* stat.c */,
+				527602AD14BC69B900A65078 /* write.c */,
+				527602AE14BC69B900A65078 /* zip.c */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5276029614BC68E600A65078 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5297E1A218ABC2C8007747B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5276029714BC68E600A65078 /* zziplib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5276029C14BC68E600A65078 /* Build configuration list for PBXNativeTarget "zziplib" */;
+			buildPhases = (
+				5276029414BC68E600A65078 /* Sources */,
+				5276029514BC68E600A65078 /* Frameworks */,
+				5276029614BC68E600A65078 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zziplib;
+			productName = zziplib;
+			productReference = 5276029814BC68E600A65078 /* libzziplibd.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5297E19318ABC2C8007747B0 /* zziplib_sim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5297E1A318ABC2C8007747B0 /* Build configuration list for PBXNativeTarget "zziplib_sim" */;
+			buildPhases = (
+				5297E19418ABC2C8007747B0 /* Sources */,
+				5297E1A118ABC2C8007747B0 /* Frameworks */,
+				5297E1A218ABC2C8007747B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zziplib_sim;
+			productName = zziplib;
+			productReference = 5297E1A618ABC2C8007747B0 /* libzziplibd.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5276028F14BC68E500A65078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 5276029214BC68E500A65078 /* Build configuration list for PBXProject "zziplib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5276028D14BC68E500A65078;
+			productRefGroup = 5276029914BC68E600A65078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5276029714BC68E600A65078 /* zziplib */,
+				5297E19318ABC2C8007747B0 /* zziplib_sim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5276029414BC68E600A65078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527602AF14BC69B900A65078 /* dir.c in Sources */,
+				527602B014BC69B900A65078 /* err.c in Sources */,
+				527602B114BC69B900A65078 /* fetch.c in Sources */,
+				527602B214BC69B900A65078 /* file.c in Sources */,
+				527602B314BC69B900A65078 /* fseeko.c in Sources */,
+				527602B414BC69B900A65078 /* info.c in Sources */,
+				527602B514BC69B900A65078 /* memdisk.c in Sources */,
+				527602B614BC69B900A65078 /* mmapped.c in Sources */,
+				527602B714BC69B900A65078 /* plugin.c in Sources */,
+				527602B814BC69B900A65078 /* stat.c in Sources */,
+				527602B914BC69B900A65078 /* write.c in Sources */,
+				527602BA14BC69B900A65078 /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5297E19418ABC2C8007747B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5297E19518ABC2C8007747B0 /* dir.c in Sources */,
+				5297E19618ABC2C8007747B0 /* err.c in Sources */,
+				5297E19718ABC2C8007747B0 /* fetch.c in Sources */,
+				5297E19818ABC2C8007747B0 /* file.c in Sources */,
+				5297E19918ABC2C8007747B0 /* fseeko.c in Sources */,
+				5297E19A18ABC2C8007747B0 /* info.c in Sources */,
+				5297E19B18ABC2C8007747B0 /* memdisk.c in Sources */,
+				5297E19C18ABC2C8007747B0 /* mmapped.c in Sources */,
+				5297E19D18ABC2C8007747B0 /* plugin.c in Sources */,
+				5297E19E18ABC2C8007747B0 /* stat.c in Sources */,
+				5297E19F18ABC2C8007747B0 /* write.c in Sources */,
+				5297E1A018ABC2C8007747B0 /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5276029A14BC68E600A65078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = ../../../libs/tos;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../include,
+					"../../../../zlib-1.2.8/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				SDKROOT = appletvos;
+			};
+			name = Debug;
+		};
+		5276029B14BC68E600A65078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = ../../../libs/tos;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../include,
+					"../../../../zlib-1.2.8/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				SDKROOT = appletvos;
+			};
+			name = Release;
+		};
+		5276029D14BC68E600A65078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(PROJECT_NAME)d";
+			};
+			name = Debug;
+		};
+		5276029E14BC68E600A65078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+			};
+			name = Release;
+		};
+		5297E1A418ABC2C8007747B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = ../../../libs/tos/sim;
+				PRODUCT_NAME = "$(PROJECT_NAME)d";
+			};
+			name = Debug;
+		};
+		5297E1A518ABC2C8007747B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = ../../../libs/tos/sim;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5276029214BC68E500A65078 /* Build configuration list for PBXProject "zziplib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5276029A14BC68E600A65078 /* Debug */,
+				5276029B14BC68E600A65078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5276029C14BC68E600A65078 /* Build configuration list for PBXNativeTarget "zziplib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5276029D14BC68E600A65078 /* Debug */,
+				5276029E14BC68E600A65078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5297E1A318ABC2C8007747B0 /* Build configuration list for PBXNativeTarget "zziplib_sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5297E1A418ABC2C8007747B0 /* Debug */,
+				5297E1A518ABC2C8007747B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5276028F14BC68E500A65078 /* Project object */;
+}

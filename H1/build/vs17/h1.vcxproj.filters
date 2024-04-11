@@ -1,0 +1,1424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Base\Collision">
+      <UniqueIdentifier>{22bd00df-9e1a-4986-8541-4a5dfab9aabb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Core">
+      <UniqueIdentifier>{3324fe03-064e-42ae-b339-1586193290dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Debug">
+      <UniqueIdentifier>{34c1cd20-69c6-466f-b372-8c2b4ea99470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Input">
+      <UniqueIdentifier>{135ea946-b69c-43b4-9fac-a5d9d9c7c745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Math">
+      <UniqueIdentifier>{8306871c-e08e-45b7-b1b1-c18a0c4066d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Render">
+      <UniqueIdentifier>{9ba82106-bccd-49aa-b757-0dd8bbfa0814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Script">
+      <UniqueIdentifier>{be7512f1-6f98-4498-8581-0229d6e7ac25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Sound">
+      <UniqueIdentifier>{c7a75e20-4fe1-475d-906c-402131a241c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{fcf1e1eb-216e-4a5b-a81a-d0c392532703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Camera">
+      <UniqueIdentifier>{56aba337-af7e-43c5-a3b7-664f7e7632da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Audio">
+      <UniqueIdentifier>{73d73616-d2e2-4f9a-abc7-fea198b5e64d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Effects">
+      <UniqueIdentifier>{9ad2826c-18bd-41d8-b8d3-84cc20b65617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Profiles">
+      <UniqueIdentifier>{2db493b4-b6c8-4a63-8d63-8b05db194ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Model">
+      <UniqueIdentifier>{9f589ed6-2336-47ac-8ef6-3a2a5ed1ee94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Input\aos">
+      <UniqueIdentifier>{935949de-c514-429f-b324-4dc79603e502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Input\ios">
+      <UniqueIdentifier>{8c88d0b9-04e7-43d7-9ec2-8d4cd7e894c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Input\win">
+      <UniqueIdentifier>{4a614ffa-f145-4ab9-81d5-13bc4d80b517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Core\aos">
+      <UniqueIdentifier>{b15250db-aab1-4896-87ca-bd6e97843705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Core\ios">
+      <UniqueIdentifier>{8d028d62-2fa4-41af-b08e-59b9cb6d0603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Core\win">
+      <UniqueIdentifier>{f82e7667-9bfc-4934-8820-28f01fdb369c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Sound\aos">
+      <UniqueIdentifier>{d5a9a3e2-8cf1-4505-a933-2c6cfdd87a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Sound\ios">
+      <UniqueIdentifier>{59098065-0569-4216-aa8e-97e5ed13d15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Sound\win">
+      <UniqueIdentifier>{247bee18-5875-4602-a971-6d1eb9c8a2fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H1_xx">
+      <UniqueIdentifier>{8187f757-b496-4fdd-9492-c8c9eaaf874f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H1_xx\InputSystem">
+      <UniqueIdentifier>{64a92010-1b82-44c3-84ed-dff3cd3e025c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H1_xx\Level">
+      <UniqueIdentifier>{1d3f118a-8612-4817-bb5f-89d98c15e0b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H1_xx\Physics">
+      <UniqueIdentifier>{de190471-ea13-43ea-9a6d-39843aa7c9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H1_xx\Player">
+      <UniqueIdentifier>{2114b488-dc55-486f-b458-1b88450e7ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H1_xx\ScriptAccess">
+      <UniqueIdentifier>{c8936698-7370-4461-9ddf-4c5a04111f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Support">
+      <UniqueIdentifier>{e52900ec-c409-4a16-b812-140e430f2388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Support\aos">
+      <UniqueIdentifier>{388bf325-ff03-48cb-8cb3-3e2969518593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Support\ios">
+      <UniqueIdentifier>{70052460-65cb-4e63-a8b8-12eb4befc293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Support\win">
+      <UniqueIdentifier>{374d2b0a-cc08-4367-a3da-7cff4c318295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H1_xx\ScriptAccess\H1">
+      <UniqueIdentifier>{179481fb-7d54-4733-b530-c08cb5b875fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Resources">
+      <UniqueIdentifier>{4567c2b9-3c71-4992-8183-eb327bf30f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\StateManage">
+      <UniqueIdentifier>{aac346d2-16e0-4c7e-9b2e-5ba37437cd02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H1_xx\GameStates">
+      <UniqueIdentifier>{71749fa0-98e8-407b-95ae-b1d0cb6a1eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H1_xx\GameStates\UI">
+      <UniqueIdentifier>{498676e7-694c-4c7f-bb5c-b41106504b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H1_xx\GameStates\UI\GeneratedFiles">
+      <UniqueIdentifier>{70a356b4-dd9b-4014-8899-a78fd3dd01ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Script\box2d">
+      <UniqueIdentifier>{13a1845b-39c3-44a5-9496-ccf08c282030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Audio\ios">
+      <UniqueIdentifier>{297e7a2f-4295-4b26-8f27-f72956cc5669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\GameEffects">
+      <UniqueIdentifier>{2ee1523c-f9f1-4f0d-93ce-ce7f60e18b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Physics">
+      <UniqueIdentifier>{91550575-eb1f-4fbe-a52d-f4ec2d7326d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Physics\box2d">
+      <UniqueIdentifier>{334fac16-ff42-45b1-afe3-5d19612aa5a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Physics\ode">
+      <UniqueIdentifier>{9c4c4a58-5d92-4c07-a3d1-63c82572c9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H1_xx\GameObjects">
+      <UniqueIdentifier>{c7e81777-ffa6-45a6-aad4-1c4e2fb8b7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\xx_H1_xx\EffectPool">
+      <UniqueIdentifier>{90a31178-2bc9-4c9a-86ea-d71939ff6ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Audio\aos">
+      <UniqueIdentifier>{b83bc356-e503-42cf-a21b-facc3106d098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Audio\win">
+      <UniqueIdentifier>{cb882e83-77ce-4929-9255-3622a49d7d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Debug\FF">
+      <UniqueIdentifier>{c2886979-c0c9-4bdc-a57a-149b37da681e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Debug\GLSL">
+      <UniqueIdentifier>{76d8ac14-907c-4194-9cb3-824d014385ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Model\FF">
+      <UniqueIdentifier>{1f882dbb-d361-466b-92c3-0d2dacce7298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Model\GLSL">
+      <UniqueIdentifier>{a8bc6d5e-8a2d-4874-90ae-30b3c3665665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Physics\box2d\FF">
+      <UniqueIdentifier>{0a5fce10-f060-41ed-8910-a5fba347be71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Physics\box2d\GLSL">
+      <UniqueIdentifier>{f6d5e2f7-6942-4c5e-8943-82986b682fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Physics\ode\FF">
+      <UniqueIdentifier>{8f702305-6819-487c-9691-864ab6f02d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Physics\ode\GLSL">
+      <UniqueIdentifier>{2ebf77c8-3aec-4e94-8f1f-bdaa44e748cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Render\FF">
+      <UniqueIdentifier>{254267f3-fff1-4800-bf98-32e740ca2bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Render\FF\OpenGL">
+      <UniqueIdentifier>{a2b3a903-32e1-489e-8216-2d9e887ccb1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Render\FF\OpenGLES">
+      <UniqueIdentifier>{480c7b29-9174-492b-ae4c-13bad0f853ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Render\GLSL">
+      <UniqueIdentifier>{72ed9d74-9198-4ae2-b6a5-83c9c8291a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Script\input">
+      <UniqueIdentifier>{2558c7ff-32c8-4f94-a646-a2ae785728d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\H1Consts.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\ScriptAccess\ScriptAccess.h">
+      <Filter>App\xx_H1_xx\ScriptAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\H1.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\Level\Level.h">
+      <Filter>App\xx_H1_xx\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Profiles\ProfileManager.h">
+      <Filter>App\Profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Effects\Emitter.h">
+      <Filter>App\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Camera\Camera.h">
+      <Filter>App\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Camera\DebugCamera.h">
+      <Filter>App\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Audio\AudioSystem.h">
+      <Filter>App\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\InputSystem\InputSystem.h">
+      <Filter>App\xx_H1_xx\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\Player\Player.h">
+      <Filter>App\xx_H1_xx\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\ScriptAccess\ScriptDataHolder.h">
+      <Filter>App\xx_H1_xx\ScriptAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\ScriptAccess\H1\VehicleAccess.h">
+      <Filter>App\xx_H1_xx\ScriptAccess\H1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\ScriptAccess\H1\H1Access.h">
+      <Filter>App\xx_H1_xx\ScriptAccess\H1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\AnimatedResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\EmitterResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\FontResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\ModelResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\ResourceHelper.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\SoundResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\SpriteResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\StringResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\TextureResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Camera\GameCamera.h">
+      <Filter>App\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GameSystems.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\StateManage\IState.h">
+      <Filter>App\StateManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\StateManage\StateManager.h">
+      <Filter>App\StateManage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\IBaseGameState.h">
+      <Filter>App\xx_H1_xx\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\MainGameState.h">
+      <Filter>App\xx_H1_xx\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\UIBaseState.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\UIFileLoader.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\ControlsUI.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\IconsUI.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\LevelStartUI.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\PauseUI.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\HudUI.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GameEffects\FullscreenEffects.h">
+      <Filter>App\GameEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\hud.hgm.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\hud.hui.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\TextFormattingFuncs.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\MainGameUI.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Collision\AABB.h">
+      <Filter>Base\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Collision\OBB.h">
+      <Filter>Base\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Collision\Sphere.h">
+      <Filter>Base\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\App.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\CoreConsts.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\CoreDefines.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\CoreFunctions.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\Endian.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\FileIO.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\Mutex.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\Thread.h">
+      <Filter>Base\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\aos\AndroidApp.h">
+      <Filter>Base\Core\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\aos\AndroidIncludes.h">
+      <Filter>Base\Core\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\aos\AndroidMutex.h">
+      <Filter>Base\Core\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\aos\AndroidThread.h">
+      <Filter>Base\Core\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\aos\jniCore.h">
+      <Filter>Base\Core\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\ios\AppDelegate.h">
+      <Filter>Base\Core\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\ios\EAGLView.h">
+      <Filter>Base\Core\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\ios\iOSApp.h">
+      <Filter>Base\Core\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\ios\iOSIncludes.h">
+      <Filter>Base\Core\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\ios\iOSMutex.h">
+      <Filter>Base\Core\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\ios\iOSThread.h">
+      <Filter>Base\Core\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\ios\ViewController.h">
+      <Filter>Base\Core\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\win\WinApp.h">
+      <Filter>Base\Core\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\win\WinIncludes.h">
+      <Filter>Base\Core\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\win\WinMutex.h">
+      <Filter>Base\Core\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Core\win\WinThread.h">
+      <Filter>Base\Core\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Debug\Assertion.h">
+      <Filter>Base\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Debug\DebugFont.h">
+      <Filter>Base\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Debug\DebugLogging.h">
+      <Filter>Base\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Input\Input.h">
+      <Filter>Base\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Input\InputInclude.h">
+      <Filter>Base\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Input\aos\AndroidInput.h">
+      <Filter>Base\Input\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Input\ios\iOSInput.h">
+      <Filter>Base\Input\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Input\win\WinInput.h">
+      <Filter>Base\Input\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Math\MathConsts.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Math\MathFunctions.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Math\Matrix.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Math\Quaternion.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Math\RandomTables.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Math\Vectors.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\Model.h">
+      <Filter>Base\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\ModelCommon.h">
+      <Filter>Base\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FreetypeFontZZip.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FreetypeZZipAccess.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\OpenGLCommon.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\PlatformRenderBase.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\RenderConsts.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\Texture.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\TextureShared.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Script\BaseScriptSupport.h">
+      <Filter>Base\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Script\LuaScripting.h">
+      <Filter>Base\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Script\ScriptConsts.h">
+      <Filter>Base\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Script\box2d\PhysicsAccessB2D.h">
+      <Filter>Base\Script\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\OpenAL.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\PlatformSoundBase.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\Sound.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\SoundCodecs.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\SoundCommon.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\SoundLoadAndUpload.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\SoundManager.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\SoundStream.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\aos\AndroidSound.h">
+      <Filter>Base\Sound\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\aos\AndroidSoundStream.h">
+      <Filter>Base\Sound\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\aos\PlatformOpenALInclude.h">
+      <Filter>Base\Sound\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\ios\iOSSound.h">
+      <Filter>Base\Sound\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\ios\iOSSoundStream.h">
+      <Filter>Base\Sound\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\ios\PlatformOpenALInclude.h">
+      <Filter>Base\Sound\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\win\PlatformOpenALInclude.h">
+      <Filter>Base\Sound\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\win\WinSound.h">
+      <Filter>Base\Sound\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Sound\win\WinSoundStream.h">
+      <Filter>Base\Sound\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\Leaderboards.h">
+      <Filter>Base\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\Purchase.h">
+      <Filter>Base\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\Scores.h">
+      <Filter>Base\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\ScoresCommon.h">
+      <Filter>Base\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\aos\AndroidPurchase.h">
+      <Filter>Base\Support\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\aos\AndroidScores.h">
+      <Filter>Base\Support\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\ios\GameCenterManager.h">
+      <Filter>Base\Support\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\ios\iOSPurchase.h">
+      <Filter>Base\Support\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\ios\iOSScores.h">
+      <Filter>Base\Support\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\win\WinPurchase.h">
+      <Filter>Base\Support\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\win\WinScores.h">
+      <Filter>Base\Support\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\achievement_popup.hgm.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\achievement_popup.hui.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\AchievementUI.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Audio\ios\BGMPlayer.h">
+      <Filter>App\Audio\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Audio\ios\MusicMediaPlayer.h">
+      <Filter>App\Audio\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\PurchaseCommon.h">
+      <Filter>Base\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Support\ios\AppStorePurchases.h">
+      <Filter>Base\Support\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\IAPList.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\TitleScreenState.h">
+      <Filter>App\xx_H1_xx\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\ScriptAccess\H1\LightAccess.h">
+      <Filter>App\xx_H1_xx\ScriptAccess\H1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\ScriptAccess\H1\FogAccess.h">
+      <Filter>App\xx_H1_xx\ScriptAccess\H1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\Level\LevelTypes.h">
+      <Filter>App\xx_H1_xx\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Effects\WaveGrid.h">
+      <Filter>App\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\controls_phone_sd.hgm.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\controls_phone_sd.hui.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\controls_tablet_sd.hgm.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\controls_tablet_sd.hui.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\ControlsTabletSDUI.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\icons_phone_sd.hgm.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\icons_phone_sd.hui.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\icons_tablet_sd.hgm.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\icons_tablet_sd.hui.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\IconsTabletSDUI.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\UIIds.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\..\Source\Resources\AchievementList.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\CollisionBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\CoreBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\DebugBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\InputBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\MathBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\ModelBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\PhysicsBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\PlatformBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\RenderBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\ScriptBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\SoundBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\SupportBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\Physics\PhysicsContact.h">
+      <Filter>App\xx_H1_xx\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\Physics\PhysicsIds.h">
+      <Filter>App\xx_H1_xx\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Physics\PhysicsConsts.h">
+      <Filter>Base\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Physics\ode\PhysicsWorldODE.h">
+      <Filter>Base\Physics\ode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Physics\box2d\PhysicsWorldB2D.h">
+      <Filter>Base\Physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\PhysicsResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\Physics\RayObject.h">
+      <Filter>App\xx_H1_xx\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Resources\ObjectResources.h">
+      <Filter>App\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameObjects\WorldObject.h">
+      <Filter>App\xx_H1_xx\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\EffectPool\EffectPool.h">
+      <Filter>App\xx_H1_xx\EffectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\frontend_aircraftselect.hgm.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\frontend_aircraftselect.hui.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\FrontendAircraftSelectUI.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Effects\BatchSpriteRender.h">
+      <Filter>App\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\LevelCompleteUI.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\FrontendLevelSelectUI.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\FrontendMainMenuUI.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\FrontendTitleScreenUI.h">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\frontend_levelselect.hgm.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\frontend_levelselect.hui.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\frontend_mainmenu.hgm.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\frontend_mainmenu.hui.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\frontend_titlescreen.hgm.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\frontend_titlescreen.hui.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\ingame_levelcomplete.hgm.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\ingame_levelcomplete.hui.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\ingame_levelstart.hgm.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\ingame_levelstart.hui.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\ingame_paused.hgm.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\xx_H1_xx\GameStates\UI\GeneratedFiles\ingame_paused.hui.h">
+      <Filter>App\xx_H1_xx\GameStates\UI\GeneratedFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Audio\ios\iOSAudioSystemBase.h">
+      <Filter>App\Audio\ios</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Audio\aos\AndroidAudioSystemBase.h">
+      <Filter>App\Audio\aos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Audio\win\WinAudioSystemBase.h">
+      <Filter>App\Audio\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Debug\FF\DebugPrint.h">
+      <Filter>Base\Debug\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Debug\GLSL\DebugPrintGLSL.h">
+      <Filter>Base\Debug\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\FF\Mesh.h">
+      <Filter>Base\Model\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\FF\ModelHGA.h">
+      <Filter>Base\Model\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\FF\ModelHGM.h">
+      <Filter>Base\Model\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\FF\SkinMesh.h">
+      <Filter>Base\Model\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\GLSL\MeshGLSL.h">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\GLSL\ModelHGAGLSL.h">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\GLSL\ModelHGMGLSL.h">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Model\GLSL\SkinMeshGLSL.h">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Physics\box2d\FF\Box2DDebugDraw.h">
+      <Filter>Base\Physics\box2d\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Physics\box2d\GLSL\Box2DDebugDrawGLSL.h">
+      <Filter>Base\Physics\box2d\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Physics\ode\FF\ODEPhysicsPrimitives.h">
+      <Filter>Base\Physics\ode\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Physics\ode\GLSL\ODEPhysicsPrimitivesGLSL.h">
+      <Filter>Base\Physics\ode\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\FreetypeFont.h">
+      <Filter>Base\Render\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\Primitives.h">
+      <Filter>Base\Render\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\Extensions.h">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\OpenGL.h">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\PlatformOpenGLInclude.h">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\RenderToTexture.h">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\Sprite.h">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGL\TextureLoadAndUpload.h">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\ExtensionsOES.h">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\gluSupport.h">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\OpenGLES.h">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\PlatformOpenGLInclude.h">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\RenderToTextureOES.h">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\SpriteOES.h">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\OpenGLES\TextureLoadAndUploadOES.h">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\FreetypeFontGLSL.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\glewES.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\gluSupportGLSL.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\OpenGLSL.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\PlatformOpenGLInclude.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\PrimitivesGLSL.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\ShaderShared.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\TextureLoadAndUploadGLSL.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\AdvertBarCommon.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FreetypeCommon.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\FF\AdvertBar.h">
+      <Filter>Base\Render\FF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\GLSL\AdvertBarGLSL.h">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Render\TextureAtlas.h">
+      <Filter>Base\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Input\InputDeviceController.h">
+      <Filter>Base\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Input\InputManager.h">
+      <Filter>Base\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Script\input\InputAccess.h">
+      <Filter>Base\Script\input</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\ScriptAccess\ScriptAccess.cpp">
+      <Filter>App\xx_H1_xx\ScriptAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\H1.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\Level\Level.cpp">
+      <Filter>App\xx_H1_xx\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Profiles\ProfileManager.cpp">
+      <Filter>App\Profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Effects\Emitter.cpp">
+      <Filter>App\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Camera\Camera.cpp">
+      <Filter>App\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Camera\DebugCamera.cpp">
+      <Filter>App\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Audio\AudioSystem.cpp">
+      <Filter>App\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\InputSystem\InputSystem.cpp">
+      <Filter>App\xx_H1_xx\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\Player\Player.cpp">
+      <Filter>App\xx_H1_xx\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\ScriptAccess\ScriptDataHolder.cpp">
+      <Filter>App\xx_H1_xx\ScriptAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\mainAndroid.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\ScriptAccess\H1\VehicleAccess.cpp">
+      <Filter>App\xx_H1_xx\ScriptAccess\H1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\ScriptAccess\H1\H1Access.cpp">
+      <Filter>App\xx_H1_xx\ScriptAccess\H1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\AnimatedResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\EmitterResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\FontResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\ModelResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\ResourceHelper.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\SoundResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\SpriteResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\StringResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\TextureResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Camera\GameCamera.cpp">
+      <Filter>App\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GameSystems.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\StateManage\StateManager.cpp">
+      <Filter>App\StateManage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\MainGameState.cpp">
+      <Filter>App\xx_H1_xx\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\UIBaseState.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\UIFileLoader.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\ControlsUI.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\HudUI.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\IconsUI.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\LevelStartUI.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\PauseUI.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GameEffects\FullscreenEffects.cpp">
+      <Filter>App\GameEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\TextFormattingFuncs.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\MainGameUI.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Collision\AABB.cpp">
+      <Filter>Base\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Collision\OBB.cpp">
+      <Filter>Base\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Collision\Sphere.cpp">
+      <Filter>Base\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\App.cpp">
+      <Filter>Base\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\CoreFunctions.cpp">
+      <Filter>Base\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\Endian.cpp">
+      <Filter>Base\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\FileIO.cpp">
+      <Filter>Base\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\aos\AndroidApp.cpp">
+      <Filter>Base\Core\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\aos\AndroidMutex.cpp">
+      <Filter>Base\Core\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\aos\AndroidThread.cpp">
+      <Filter>Base\Core\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\aos\jniCore.cpp">
+      <Filter>Base\Core\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\ios\iOSApp.cpp">
+      <Filter>Base\Core\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\ios\iOSMutex.cpp">
+      <Filter>Base\Core\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\ios\iOSThread.cpp">
+      <Filter>Base\Core\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\win\WinApp.cpp">
+      <Filter>Base\Core\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\win\WinMutex.cpp">
+      <Filter>Base\Core\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Core\win\WinThread.cpp">
+      <Filter>Base\Core\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Debug\Assertion.cpp">
+      <Filter>Base\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Debug\DebugLogging.cpp">
+      <Filter>Base\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Input\Input.cpp">
+      <Filter>Base\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Math\MathFunctions.cpp">
+      <Filter>Base\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Math\Matrix.cpp">
+      <Filter>Base\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Math\Quaternion.cpp">
+      <Filter>Base\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Math\RandomTables.cpp">
+      <Filter>Base\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Math\Vectors.cpp">
+      <Filter>Base\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\Model.cpp">
+      <Filter>Base\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FreetypeFontZZip.c">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FreetypeZZipAccess.c">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\OpenGLCommon.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\Texture.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\TextureShared.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Script\BaseScriptSupport.cpp">
+      <Filter>Base\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Script\LuaScripting.cpp">
+      <Filter>Base\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Script\box2d\PhysicsAccessB2D.cpp">
+      <Filter>Base\Script\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\OpenAL.cpp">
+      <Filter>Base\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\Sound.cpp">
+      <Filter>Base\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\SoundCodecs.cpp">
+      <Filter>Base\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\SoundLoadAndUpload.cpp">
+      <Filter>Base\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\SoundManager.cpp">
+      <Filter>Base\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\SoundStream.cpp">
+      <Filter>Base\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\aos\AndroidSound.cpp">
+      <Filter>Base\Sound\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\aos\AndroidSoundStream.cpp">
+      <Filter>Base\Sound\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\ios\iOSSound.cpp">
+      <Filter>Base\Sound\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\ios\iOSSoundStream.cpp">
+      <Filter>Base\Sound\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\win\WinSound.cpp">
+      <Filter>Base\Sound\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Sound\win\WinSoundStream.cpp">
+      <Filter>Base\Sound\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\Leaderboards.cpp">
+      <Filter>Base\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\Purchase.cpp">
+      <Filter>Base\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\Scores.cpp">
+      <Filter>Base\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\aos\AndroidPurchase.cpp">
+      <Filter>Base\Support\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\aos\AndroidScores.cpp">
+      <Filter>Base\Support\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\ios\iOSPurchase.cpp">
+      <Filter>Base\Support\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\ios\iOSScores.cpp">
+      <Filter>Base\Support\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\win\WinPurchase.cpp">
+      <Filter>Base\Support\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Support\win\WinScores.cpp">
+      <Filter>Base\Support\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\AchievementUI.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\IAPList.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\TitleScreenState.cpp">
+      <Filter>App\xx_H1_xx\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\ScriptAccess\H1\LightAccess.cpp">
+      <Filter>App\xx_H1_xx\ScriptAccess\H1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\ScriptAccess\H1\FogAccess.cpp">
+      <Filter>App\xx_H1_xx\ScriptAccess\H1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Effects\WaveGrid.cpp">
+      <Filter>App\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\ControlsTabletSDUI.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\IconsTabletSDUI.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\AchievementList.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\Physics\PhysicsContact.cpp">
+      <Filter>App\xx_H1_xx\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Physics\ode\PhysicsWorldODE.cpp">
+      <Filter>Base\Physics\ode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Physics\box2d\PhysicsWorldB2D.cpp">
+      <Filter>Base\Physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\PhysicsResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\Physics\RayObject.cpp">
+      <Filter>App\xx_H1_xx\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Resources\ObjectResources.cpp">
+      <Filter>App\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameObjects\WorldObject.cpp">
+      <Filter>App\xx_H1_xx\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\EffectPool\EffectPool.cpp">
+      <Filter>App\xx_H1_xx\EffectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\FrontendAircraftSelectUI.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Effects\BatchSpriteRender.cpp">
+      <Filter>App\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\LevelCompleteUI.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\FrontendLevelSelectUI.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\FrontendMainMenuUI.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\xx_H1_xx\GameStates\UI\FrontendTitleScreenUI.cpp">
+      <Filter>App\xx_H1_xx\GameStates\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Audio\ios\iOSAudioSystemBase.cpp">
+      <Filter>App\Audio\ios</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Audio\aos\AndroidAudioSystemBase.cpp">
+      <Filter>App\Audio\aos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Audio\win\WinAudioSystemBase.cpp">
+      <Filter>App\Audio\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Debug\FF\DebugPrint.cpp">
+      <Filter>Base\Debug\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Debug\GLSL\DebugPrintGLSL.cpp">
+      <Filter>Base\Debug\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\FF\Mesh.cpp">
+      <Filter>Base\Model\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\FF\ModelHGA.cpp">
+      <Filter>Base\Model\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\FF\ModelHGM.cpp">
+      <Filter>Base\Model\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\FF\SkinMesh.cpp">
+      <Filter>Base\Model\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\GLSL\MeshGLSL.cpp">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\GLSL\ModelHGAGLSL.cpp">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\GLSL\ModelHGMGLSL.cpp">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Model\GLSL\SkinMeshGLSL.cpp">
+      <Filter>Base\Model\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Physics\box2d\FF\Box2DDebugDraw.cpp">
+      <Filter>Base\Physics\box2d\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Physics\box2d\GLSL\Box2DDebugDrawGLSL.cpp">
+      <Filter>Base\Physics\box2d\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Physics\ode\FF\ODEPhysicsPrimitives.cpp">
+      <Filter>Base\Physics\ode\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Physics\ode\GLSL\ODEPhysicsPrimitivesGLSL.cpp">
+      <Filter>Base\Physics\ode\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\FreetypeFont.cpp">
+      <Filter>Base\Render\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\Primitives.cpp">
+      <Filter>Base\Render\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGL\Extensions.cpp">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGL\OpenGL.cpp">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGL\RenderToTexture.cpp">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGL\Sprite.cpp">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGL\TextureLoadAndUpload.cpp">
+      <Filter>Base\Render\FF\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\ExtensionsOES.cpp">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\gluSupport.cpp">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\OpenGLES.cpp">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\RenderToTextureOES.cpp">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\SpriteOES.cpp">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\OpenGLES\TextureLoadAndUploadOES.cpp">
+      <Filter>Base\Render\FF\OpenGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\GLSL\FreetypeFontGLSL.cpp">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\GLSL\glewES.cpp">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\GLSL\gluSupportGLSL.cpp">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\GLSL\OpenGLSL.cpp">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\GLSL\PrimitivesGLSL.cpp">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\GLSL\ShaderShared.cpp">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\GLSL\TextureLoadAndUploadGLSL.cpp">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\FF\AdvertBar.cpp">
+      <Filter>Base\Render\FF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\GLSL\AdvertBarGLSL.cpp">
+      <Filter>Base\Render\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\mainRaspberryPi.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Render\TextureAtlas.cpp">
+      <Filter>Base\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Input\InputDeviceController.cpp">
+      <Filter>Base\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Input\InputManager.cpp">
+      <Filter>Base\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Script\input\InputAccess.cpp">
+      <Filter>Base\Script\input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Base\Core\ios\AppDelegate.mm">
+      <Filter>Base\Core\ios</Filter>
+    </None>
+    <None Include="..\..\..\Base\Core\ios\ViewController.mm">
+      <Filter>Base\Core\ios</Filter>
+    </None>
+    <None Include="..\..\..\Base\Support\ios\GameCenterManager.mm">
+      <Filter>Base\Support\ios</Filter>
+    </None>
+    <None Include="..\..\Source\Audio\ios\BGMPlayer.m">
+      <Filter>App\Audio\ios</Filter>
+    </None>
+    <None Include="..\..\Source\Audio\ios\MusicMediaPlayer.mm">
+      <Filter>App\Audio\ios</Filter>
+    </None>
+    <None Include="..\..\..\Base\Support\ios\AppStorePurchases.mm">
+      <Filter>Base\Support\ios</Filter>
+    </None>
+    <None Include="aircadets.ico" />
+    <None Include="..\..\Source\mainMac.m">
+      <Filter>App</Filter>
+    </None>
+    <None Include="..\..\Source\mainiOS.m">
+      <Filter>App</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="H1.rc" />
+  </ItemGroup>
+</Project>

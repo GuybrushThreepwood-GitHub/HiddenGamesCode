@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Air Cadets</string>
+    <string name="app_name">Air Cadets</string>
+	<string name="app_quit">¿Estás seguro de que quieres salir?</string>
+	<string name="dialog_yes">Sí</string>
+	<string name="dialog_no">No</string>	
+</resources>

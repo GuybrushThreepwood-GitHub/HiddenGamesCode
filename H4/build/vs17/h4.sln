@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "h4", "h4.vcxproj", "{76BC9137-0AC1-4847-A177-92E77FF1056B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76BC9137-0AC1-4847-A177-92E77FF1056B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76BC9137-0AC1-4847-A177-92E77FF1056B}.Debug|Win32.Build.0 = Debug|Win32
+		{76BC9137-0AC1-4847-A177-92E77FF1056B}.Debug|x64.ActiveCfg = Debug|x64
+		{76BC9137-0AC1-4847-A177-92E77FF1056B}.Debug|x64.Build.0 = Debug|x64
+		{76BC9137-0AC1-4847-A177-92E77FF1056B}.Release|Win32.ActiveCfg = Release|Win32
+		{76BC9137-0AC1-4847-A177-92E77FF1056B}.Release|Win32.Build.0 = Release|Win32
+		{76BC9137-0AC1-4847-A177-92E77FF1056B}.Release|x64.ActiveCfg = Release|x64
+		{76BC9137-0AC1-4847-A177-92E77FF1056B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
